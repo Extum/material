@@ -267,7 +267,7 @@ input.Button[type="submit"] {
 
 .SessionDropdown .Dropdown-toggle {
     border-radius: 18px;
-    margin-left: 6px;
+    margin-left: 15px;
 }
 
 .SessionDropdown .Dropdown-toggle .Avatar {
