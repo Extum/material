@@ -283,6 +283,7 @@ input.Button[type="submit"] {
     width: 36px;
     text-align: center;
     padding: 0px 0;
+    margin-left: 9px;
 }
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
