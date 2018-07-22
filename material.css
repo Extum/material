@@ -136,7 +136,7 @@ input.Button[type="submit"] {
       background-color: rgb(63,81,181); }
     .Button--raised.Button--colored .mdl-ripple {
       background: rgb(255,255,255); }
-.Checkbox-display {
+.Checkbox {
   position: relative;
   z-index: 1;
   vertical-align: middle;
@@ -152,10 +152,10 @@ input.Button[type="submit"] {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .Checkbox-display.is-upgraded {
+  .Checkbox.is-upgraded {
     padding-left: 28px; }
 
-.Checkbox-display__input {
+.Checkbox__input {
   line-height: 24px; }
   .Checkbox-display.is-upgraded .Checkbox-display__input {
     position: absolute;
@@ -170,7 +170,7 @@ input.Button[type="submit"] {
     appearance: none;
     border: none; }
 
-.Checkbox-display__track {
+.Checkbox__track {
   background: rgba(0,0,0, 0.26);
   position: absolute;
   left: 0;
@@ -179,14 +179,14 @@ input.Button[type="submit"] {
   width: 36px;
   border-radius: 14px;
   cursor: pointer; }
-  .Checkbox-display.is-checked .Checkbox-display__track {
+  .Checkbox.is-checked .Checkbox-display__track {
     background: rgba(63,81,181, 0.5); }
-  .Checkbox-display__track fieldset[disabled] .Checkbox-display,
-  .Checkbox-display.is-disabled .Checkbox-display__track {
+  .Checkbox__track fieldset[disabled] .Checkbox-display,
+  .Checkbox.is-disabled .Checkbox-display__track {
     background: rgba(0,0,0, 0.12);
     cursor: auto; }
 
-.Checkbox-display__thumb {
+.Checkbox__thumb {
   background: rgb(250,250,250);
   position: absolute;
   left: 0;
@@ -199,16 +199,16 @@ input.Button[type="submit"] {
   transition-duration: 0.28s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: left; }
-  .Checkbox-display.is-checked .Checkbox-display__thumb {
+  .Checkbox.is-checked .Checkbox-display__thumb {
     background: rgb(63,81,181);
     left: 16px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }
-  .Checkbox-display__thumb fieldset[disabled] .Checkbox-display,
-  .Checkbox-display.is-disabled .Checkbox-display__thumb {
+  .Checkbox__thumb fieldset[disabled] .Checkbox-display,
+  .Checkbox.is-disabled .Checkbox-display__thumb {
     background: rgb(189,189,189);
     cursor: auto; }
 
-.Checkbox-display__focus-helper {
+.Checkbox__focus-helper {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -220,26 +220,26 @@ input.Button[type="submit"] {
   height: 8px;
   border-radius: 50%;
   background-color: transparent; }
-  .Checkbox-display.is-focused .Checkbox-display__focus-helper {
+  .Checkbox.is-focused .Checkbox-display__focus-helper {
     box-shadow: 0 0 0px 20px rgba(0, 0, 0, 0.1);
     background-color: rgba(0, 0, 0, 0.1); }
-  .Checkbox-display.is-focused.is-checked .Checkbox-display__focus-helper {
+  .Checkbox.is-focused.is-checked .Checkbox-display__focus-helper {
     box-shadow: 0 0 0px 20px rgba(63,81,181, 0.26);
     background-color: rgba(63,81,181, 0.26); }
 
-.Checkbox-display__label {
+.Checkbox__label {
   position: relative;
   cursor: pointer;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
   left: 24px; }
-  .Checkbox-display__label fieldset[disabled] .Checkbox-display,
-  .Checkbox-display.is-disabled .Checkbox-display__label {
+  .Checkbox__label fieldset[disabled] .Checkbox-display,
+  .Checkbox.is-disabled .Checkbox-display__label {
     color: rgb(189,189,189);
     cursor: auto; }
 
-.Checkbox-display__ripple-container {
+.Checkbox__ripple-container {
   position: absolute;
   z-index: 2;
   top: -12px;
@@ -254,14 +254,14 @@ input.Button[type="submit"] {
   transition-duration: 0.40s;
   transition-timing-function: step-end;
   transition-property: left; }
-  .Checkbox-display__ripple-container .mdl-ripple {
+  .Checkbox__ripple-container .mdl-ripple {
     background: rgb(63,81,181); }
-  .Checkbox-display__ripple-container fieldset[disabled] .Checkbox-display,
-  .Checkbox-display.is-disabled .Checkbox-display__ripple-container {
+  .Checkbox__ripple-container fieldset[disabled] .Checkbox-display,
+  .Checkbox.is-disabled .Checkbox-display__ripple-container {
     cursor: auto; }
-  fieldset[disabled] .Checkbox-display .Checkbox-display__ripple-container .mdl-ripple,
-  .Checkbox-display.is-disabled .Checkbox-display__ripple-container .mdl-ripple {
+  fieldset[disabled] .Checkbox .Checkbox__ripple-container .mdl-ripple,
+  .Checkbox.is-disabled .Checkbox__ripple-container .mdl-ripple {
     background: transparent; }
-  .Checkbox-display.is-checked .Checkbox-display__ripple-container {
+  .Checkbox.is-checked .Checkbox__ripple-container {
     left: 2px; }
 
