@@ -291,3 +291,8 @@ input.Button[type="submit"] {
     width: 22%;
     margin-top: 9px;
 }
+
+.Button--link {
+    background: transparent !important;
+    margin-right: 9px;
+}
