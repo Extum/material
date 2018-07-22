@@ -11,12 +11,5 @@ Material Design Theme for Flarum.
 1. Navigate to the [style file](https://github.com/Extum/flarum-theme-material/blob/master/material.css)
 2. Copy the CSS code
 3. Paste it inside the custom css area at your Flarum forum
+4. Add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` inside custom header.
 4. Enjoy
-
-## Adding Material Icons Font
-1. Navigate to the Administration Control Panel on your Flarum Community
-2. Next locate "Appearance" section and click on it
-3. Then scroll down to the "Custom Header" section and press "Edit Custom Header"
-4. Last add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">` to the TextBox and press "Save Changes"
-5. Enjoy better Icons
