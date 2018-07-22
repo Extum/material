@@ -294,3 +294,9 @@ input.Button[type="submit"] {
     background: transparent !important;
     margin-right: 9px;
 }
+
+.DiscussionListItem-controls .Dropdown-toggle {
+    display: block;
+    margin-right: -14px;
+    margin-top: -2px;
+}
