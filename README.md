@@ -10,6 +10,6 @@ Material Design Theme for Flarum.
 ## Installation Instructions
 1. Navigate to the [style file](https://github.com/Extum/flarum-theme-material/blob/master/material.css)
 2. Copy the CSS code
-3. Paste it inside the custom css area at your Flarum forum
-4. Add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` inside custom header.
+3. Paste it inside the Custom CSS area at your Flarum forum
+4. Add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` inside Custom Header.
 4. Enjoy
