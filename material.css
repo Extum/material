@@ -302,3 +302,6 @@ input.Button[type="submit"] {
     margin-top: -2px;
 }
 
+.Header-secondary .Search {
+    margin-right: 0;
+}
