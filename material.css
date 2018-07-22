@@ -265,3 +265,8 @@ input.Button[type="submit"] {
     background: transparent; }
   .Checkbox-display.is-checked .Checkbox-display__ripple-container {
     left: 2px; }
+
+.SessionDropdown .Dropdown-toggle {
+    border-radius: 18px;
+    margin-left: 6px;
+}
