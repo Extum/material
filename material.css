@@ -506,6 +506,7 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
   transition:background .2s }
 .NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),.NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
  background:whitesmoke }
+
  .PostMention,.UserMention {
  background:#e4e8f6;
  color:#667199;
@@ -513,10 +514,14 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
  padding:2px 5px;
  border:0 !important;
   box-shadow: 0 2px 1px rgba(0,0,0,0.16), 0 2px 1px rgba(0,0,0,0.23);
-transition: all 0.3s cubic-bezier(.25,.8,.25,1); }
+transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+}
+
 .PostMention:hover,.UserMention:hover,.PostMention:active,.UserMention:active {
  color:#4369ff;
-  box-shadow: 0 3px 4px rgba(0,0,0,0.25), 0 3px 4px rgba(0,0,0,0.22); }
+  box-shadow: 0 3px 4px rgba(0,0,0,0.25), 0 3px 4px rgba(0,0,0,0.22);
+}
+
 .FormControl {
 border: none;
   border-bottom: 2px solid rgba(0,0,0, 0.12);
@@ -528,8 +533,20 @@ border: none;
   width: 100%;
   background: none;
   text-align: left;
-  color: inherit; }
+  color: inherit; 
+}
+
 .NotificationList-header {
   padding:12px 15px;
   box-shadow: 0px 3px 2px lightgray;
   margin-bottom: 5px; }
+
+.DiscussionListItem:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ }
+
+.RecipientsLabel .RecipientLabel:last-child {
+ border-radius:0 4px 4px 0;
+ margin-right: 6px;
+}
