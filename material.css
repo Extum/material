@@ -482,3 +482,11 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding-left: 15px;
   margin-top: 20px; }
+.DiscussionListItem {
+  position:relative;
+  margin-right:0px;
+  padding-right:25px;
+  padding-left:15px;
+  margin-left:-15px;
+  border-radius:4px;
+  transition:background .2s }
