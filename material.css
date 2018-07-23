@@ -416,3 +416,42 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22);
 
 }
+
+.DiscussionListItem-author {
+ float:left;
+ margin-top:13px;
+
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: radial-gradient(circle at center 75px, transparent, transparent 50px);
+  -webkit-filter: drop-shadow(0px 2px 2px gray);
+  overflow: hidden;
+  
+}
+
+.DiscussionListItem-author:hover {
+ -webkit-filter: drop-shadow(0px 2px 4px gray);
+}
+
+.PostUser-avatar {
+  left:-85px;
+  position:absolute;
+  width:64px;
+  height:64px;
+  border-radius:64px;
+  font-size:32px;
+  line-height:64px;
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  
+  -webkit-filter: drop-shadow(0px 2px 2px gray);
+  overflow: hidden;
+ }
+
+.Post {
+  padding-left:105px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+ }
+
+.Post:hover {
+box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22);
+
+}
