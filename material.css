@@ -1,3 +1,11 @@
+/*
+    Author:  Extum
+    Version: 1.0.0
+    Contact: ardacebi1@gmail.com
+    Github:  https://github.com/Extum
+    
+*/
+
 .box-shadow (@shadow) {
 	-webkit-box-shadow: @shadow;
 	-moz-box-shadow:    @shadow;
