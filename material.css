@@ -476,12 +476,14 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
   min-height:104px;
   margin-bottom:15px }
 .DiscussionList-discussions {
-  list-style-type:none;
-  position:relative;
+ list-style-type:none;
+ position:relative;
   box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding-left: 15px;
   margin-top: 20px; }
+.DiscussionList-discussions:hover {
+box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
 .DiscussionListItem {
   position:relative;
   margin-right:0px;
@@ -490,3 +492,5 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
   margin-left:-15px;
   border-radius:4px;
   transition:background .2s }
+.NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),.NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
+ background:whitesmoke }
