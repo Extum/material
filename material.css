@@ -551,19 +551,4 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
  margin-right: 6px;
 }
 
-.Button--link {
- background:transparent !important;
- box-shadow: none;
-  border: 0;
-}
 
-.Button--link:hover {
- -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-filter: grayscale(20%);
-}
-
-.Button--link:active,.Button--link.active,.Button--link:focus,.Button--link.focus,.open>.Button--link.Dropdown-toggle {
--webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-filter: grayscale(40%); 
-
-}
