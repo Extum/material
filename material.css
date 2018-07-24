@@ -18,51 +18,13 @@
 	box-shadow:         @shadow;
 }
 
-.border-radius (@radius) {
-	-webkit-border-radius: @radius;
-	-moz-border-radius:    @radius;
-    border-radius:         @radius;
-}
-
-.transition (@transition) {
-	-webkit-transition: @transition;  
-	-moz-transition:    @transition;
-	-ms-transition:     @transition; 
-	-o-transition:      @transition;  
-}
-
-.background-size (@size) {
-    -webkit-background-size: @size;
-    -moz-background-size:    @size;
-    background-size:         @size;
-}
-
-.bgrgba (@rgba) {
-    background: rgba(0,0,0, @rgba);
-}
-
-.bgcolor (@color) {
-    background: @color;
-}
-
-.brgba (@size, @rgba) {
-    border: @size solid rgba(0,0,0, @rgba);
-}
-
-.brcolor (@size, @color) {
-    border: @size solid @color;
-}
 
     @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
     @dfont: "Roboto", Helvetica, Arial, sans-serif;
-    @cfont: "Courier New", Helvetica, Arial, sans-serif;
 
-    @shadow1: rgba(0,0,0, .05); 
-    @shadow2: rgba(0,0,0, .1);
     @shadow3: rgba(0,0,0, .2);
-    @shadow4: rgba(0,0,0, .4);
 
     // whitestyle
     @wscolor: #585858;
