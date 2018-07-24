@@ -536,3 +536,8 @@ filter: grayscale(40%);
     display: inline-block;
     margin-right: 4px;
 }
+
+.TagCloud a {
+    margin-bottom: 5px;
+    border-radius: 11px;
+}
