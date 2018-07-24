@@ -22,6 +22,8 @@
     @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
     @dfont: "Roboto", Helvetica, Arial, sans-serif;
 
     @shadow3: rgba(0,0,0, .2);
