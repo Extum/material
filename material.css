@@ -17,57 +17,26 @@
 	-moz-box-shadow:    @shadow;
 	box-shadow:         @shadow;
 }
-.border-radius (@radius) {
-	-webkit-border-radius: @radius;
-	-moz-border-radius:    @radius;
-    border-radius:         @radius;
-}
-.transition (@transition) {
-	-webkit-transition: @transition;  
-	-moz-transition:    @transition;
-	-ms-transition:     @transition; 
-	-o-transition:      @transition;  
-}
-.background-size (@size) {
-    -webkit-background-size: @size;
-    -moz-background-size:    @size;
-    background-size:         @size;
-}
-.bgrgba (@rgba) {
-    background: rgba(0,0,0, @rgba);
-}
-.bgcolor (@color) {
-    background: @color;
-}
-.brgba (@size, @rgba) {
-    border: @size solid rgba(0,0,0, @rgba);
-}
-.brcolor (@size, @color) {
-    border: @size solid @color;
-}
 
- @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
     @dfont: "Roboto", Helvetica, Arial, sans-serif;
-    @cfont: "Courier New", Helvetica, Arial, sans-serif;
 
-    @shadow1: rgba(0,0,0, .05); 
-    @shadow2: rgba(0,0,0, .1);
     @shadow3: rgba(0,0,0, .2);
-    @shadow4: rgba(0,0,0, .4);
 
     // whitestyle
     @wscolor: #585858;
     @wshcolor: @wscolor + #000000;
    
-// darkstyle
+    // darkstyle
     @dscolor: #b7b7b7;
     @ducolor: #cecece;
     @dshcolor: #d1d1d1;
 
-body {
-font-family: @dfont !important;
+  body {
+   font-family: @dfont !important;
 }
 
 .IndexPage-newDiscussion {
@@ -94,43 +63,72 @@ font-family: @dfont !important;
   text-decoration: none;
   text-align: center;
   line-height: 36px;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
+
   .IndexPage-newDiscussion:hover {
   -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(20%); }
+    filter: grayscale(20%); 
+}
+
   .IndexPage-newDiscussion:focus:not(:active) {
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
   .IndexPage-newDiscussion:active {
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
   .IndexPage-newDiscussion.IndexPage-newDiscussion--colored {
-    color: rgb(63,81,181); }
+    color: rgb(63,81,181); 
+}
+
     .IndexPage-newDiscussion.IndexPage-newDiscussion--colored:focus:not(:active) {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
 input.IndexPage-newDiscussion[type="submit"] {
-  -webkit-appearance: none; }
-  .IndexPage-newDiscussion--raised:active {
+  -webkit-appearance: none; 
+}
+
+   .IndexPage-newDiscussion--raised:active {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
-  .IndexPage-newDiscussion--raised:focus:not(:active) {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
-    background-color: rgba(158,158,158, 0.40); }
-  .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored {
-    background: rgb(63,81,181);
-    color: rgb(255,255,255); }
+     filter: grayscale(40%); 
+}
+
+    .IndexPage-newDiscussion--raised:focus:not(:active) {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
+      background-color: rgba(158,158,158, 0.40); 
+}
+
+    .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored {
+      background: rgb(63,81,181);
+      color: rgb(255,255,255); 
+}
+
     .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored:hover {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored:active {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored:focus:not(:active) {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .IndexPage-newDiscussion--raised.IndexPage-newDiscussion--colored .mdl-ripple {
-      background: rgb(255,255,255); }
+      background: rgb(255,255,255); 
+}
+
 .Button--primary {
     border-radius: 2px;
 }
+
 .Button {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
     border: none;
@@ -155,85 +153,127 @@ input.IndexPage-newDiscussion[type="submit"] {
     text-decoration: none;
     text-align: center;
     line-height: 36px;
-    vertical-align: middle; }
+    vertical-align: middle; 
+}
+
   .Button:hover {
   -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(20%); }
+    filter: grayscale(20%); 
+}
+
   .Button:focus:not(:active) {
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
   .Button:active {
     -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
   .Button.Button--colored {
-    color: rgb(63,81,181); }
+    color: rgb(63,81,181); 
+}
+
     .Button.Button--colored:focus:not(:active) {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
 input.Button[type="submit"] {
-  -webkit-appearance: none; }
+  -webkit-appearance: none; 
+}
+
   .Button--raised:active {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); }
+    filter: grayscale(40%); 
+}
+
   .Button--raised:focus:not(:active) {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
-    background-color: rgba(158,158,158, 0.40); }
+    background-color: rgba(158,158,158, 0.40); 
+}
+
   .Button--raised.Button--colored {
     background: rgb(63,81,181);
-    color: rgb(255,255,255); }
+    color: rgb(255,255,255); 
+}
+
     .Button--raised.Button--colored:hover {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .Button--raised.Button--colored:active {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .Button--raised.Button--colored:focus:not(:active) {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(63,81,181); 
+}
+
     .Button--raised.Button--colored .mdl-ripple {
       background: rgb(255,255,255); 
 }
 
 .SessionDropdown .Dropdown-toggle {
     border-radius: 18px;
-    margin-left: 15px }
+    margin-left: 15px 
+}
+
 .SessionDropdown .Dropdown-toggle .Avatar {
     margin: 6px 5px -2px -6px;
     width: 24px;
     height: 24px;
     border-radius: 24px;
     font-size: 12px;
-    line-height: 24px; }
+    line-height: 24px; 
+}
+
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
 width: 22%;
-    margin-top: -38px; }
+    margin-top: -38px; 
+}
+
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
     /* width: 77%; */
     visibility: hidden;
 }
 .Button--link {
 background: transparent !important;
-margin-right: 9px; }
+margin-right: 9px; 
+}
+
 .DiscussionListItem-controls .Dropdown-toggle {
     display: block;
     margin-left: 9px;
-    margin-top: -2px; }
+    margin-top: -2px; 
+}
+
 .NotificationsDropdown .Dropdown-toggle {
-width: 36px;
-     text-align: center;
-    padding: 0px 0;
- margin-left: 9px;}
+   width: 36px;
+   text-align: center;
+   padding: 0px 0;
+   margin-left: 9px;
+}
+
 @keyframes pulse {
 	0% { transform: scale(1);}
 	50% { transform: scale(1.5); }
 	100% { transform: scale(1); } }
 .new .NotificationsDropdown-unread {
-	animation: pulse 1s infinite; }
+	animation: pulse 1s infinite; 
+}
+
 .TagIcon {
    margin-top: 4px;
 }
+
 .sideNav .TagLinkButton .TagIcon {
     .box-shadow(0 1px 1px @shadow3);
     height: 18px;
     font-size: 14px !important; 
 }
+
 .Button--icon {
   border: none;
   border-radius: 2px;
@@ -255,7 +295,9 @@ width: 36px;
   text-decoration: none;
   text-align: center;
   line-height: 36px;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
+
 .sideNav .Dropdown--select .Dropdown-menu {
     display: block;
     margin: 0;
@@ -265,17 +307,23 @@ width: 36px;
     background: none;
     transition: all .3s cubic-bezier(.25, .8, .25, 1);
 }
+
 .sideNav .Dropdown--select .Dropdown-menu:hover {
 }
+
 .DiscussionListItem-author {
  float:left;
  margin-top:13px;
-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   background: radial-gradient(circle at center 75px, transparent, transparent 50px);
   -webkit-filter: drop-shadow(0px 2px 2px gray);
-  overflow: hidden; }
+  overflow: hidden; 
+}
+
 .DiscussionListItem-author:hover {
- -webkit-filter: drop-shadow(0px 2px 4px gray); }
+ -webkit-filter: drop-shadow(0px 2px 4px gray); 
+}
+
 .PostUser-avatar {
   left:-85px;
   position:absolute;
@@ -286,12 +334,18 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   line-height:64px;
    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   -webkit-filter: drop-shadow(0px 2px 2px gray);
-  overflow: hidden; }
+  overflow: hidden; 
+}
+
 .Post {
   padding-left:105px;
-box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); }
+box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
+}
+
 .Post:hover {
-box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
+box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); 
+}
+
 .NotificationGrid {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.12);
@@ -300,29 +354,47 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
   font-size: 13px;
   background-color: rgb(255,255,255);
 box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
-margin-bottom:5px; }
+margin-bottom:5px; 
+}
+
   .NotificationGrid thead {
-    padding-bottom: 3px; }
+    padding-bottom: 3px; 
+}
+
     .NotificationGrid thead .NotificationGrid__select {
-      margin-top: 0; }
+      margin-top: 0; 
+}
+
   .NotificationGrid tbody tr {
     position: relative;
     height: 48px;
     transition-duration: 0.28s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color; }
+    transition-property: background-color; 
+}
+
     .NotificationGrid tbody tr.is-selected {
-      background-color: #e0e0e0; }
+      background-color: #e0e0e0; 
+}
+
     .NotificationGrid tbody tr:hover {
 box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22);
-transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
+transition: all 0.2s cubic-bezier(.25,.8,.25,1); 
+}
+
   .NotificationGrid td, .NotificationGrid th {
     border-bottom:none;
-    padding: 0 18px 12px 18px; }
+    padding: 0 18px 12px 18px; 
+}
+
     .NotificationGrid td:first-of-type, .NotificationGrid th:first-of-type {
-      padding-left: 24px; }
+      padding-left: 24px; 
+}
+
     .NotificationGrid td:last-of-type, .NotificationGrid th:last-of-type {
-      /* padding-right: 24px; */ }
+      /* padding-right: 24px; */ 
+}
+
   .NotificationGrid td {
     position: relative;
     vertical-align: middle;
@@ -330,9 +402,13 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     padding-top: 12px;
-    box-sizing: border-box; }
+    box-sizing: border-box; 
+}
+
     .NotificationGrid td .NotificationGrid__select {
-      vertical-align: middle; }
+      vertical-align: middle; 
+}
+
   .NotificationGrid th {
     position: relative;
     vertical-align: bottom;
@@ -345,9 +421,13 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
     font-size: 12px;
     color: rgba(0, 0, 0, 0.54);
     padding-bottom: 8px;
-    box-sizing: border-box; }
+    box-sizing: border-box; 
+}
+
     .NotificationGrid th.NotificationGrid__header--sorted-ascending, .NotificationGrid th.NotificationGrid__header--sorted-descending {
-      color: rgba(0, 0, 0, 0.87); }
+      color: rgba(0, 0, 0, 0.87); 
+}
+
       .NotificationGrid th.NotificationGrid__header--sorted-ascending:before, .NotificationGrid th.NotificationGrid__header--sorted-descending:before {
         font-family: 'Material Icons';
         font-weight: normal;
@@ -365,20 +445,34 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
         font-size: 16px;
         content: "\e5d8";
         margin-right: 5px;
-        vertical-align: sub; }
+        vertical-align: sub; 
+}
+
       .NotificationGrid th.NotificationGrid__header--sorted-ascending:hover, .NotificationGrid th.NotificationGrid__header--sorted-descending:hover {
-        cursor: pointer; }
+        cursor: pointer; 
+}
+
         .NotificationGrid th.NotificationGrid__header--sorted-ascending:hover:before, .NotificationGrid th.NotificationGrid__header--sorted-descending:hover:before {
-          color: rgba(0, 0, 0, 0.26); }
+          color: rgba(0, 0, 0, 0.26); 
+}
+
     .NotificationGrid th.NotificationGrid__header--sorted-descending:before {
-      content: "\e5db"; }
+      content: "\e5db"; 
+}
+
 .NotificationGrid__select {
-  width: 16px; }
+  width: 16px; 
+}
+
 .NotificationGrid__cell--non-numeric.NotificationGrid__cell--non-numeric {
-  text-align: left; }
+  text-align: left; 
+}
+
  .CommentPost:not(.Post--hidden),.ReplyPlaceholder {
   min-height:104px;
-  margin-bottom:15px }
+  margin-bottom:15px 
+}
+
 .DiscussionList-discussions {
  list-style-type:none;
  position:relative;
@@ -386,9 +480,13 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
 transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding-left: 15px;
   margin-top: 20px;
- border-radius: 5px;}
+ border-radius: 5px;
+}
+
 .DiscussionList-discussions:hover {
-box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
+box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); 
+}
+
 .DiscussionListItem {
   position:relative;
   margin-right:0px;
@@ -396,9 +494,12 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22); }
   padding-left:15px;
   margin-left:-15px;
   border-radius:4px;
-  transition:background .2s }
+  transition:background .2s 
+}
+
 .NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),.NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
- background:whitesmoke }
+ background:whitesmoke 
+}
 
  .PostMention,.UserMention {
  background:#e4e8f6;
