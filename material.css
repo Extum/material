@@ -139,6 +139,7 @@ input.IndexPage-newDiscussion[type="submit"] {
     height: 36px;
     margin: 0;
     min-width: 44px;
+    padding: 0 16px;
     display: inline-block;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 14px;
