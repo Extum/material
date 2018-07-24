@@ -669,3 +669,36 @@ filter: grayscale(40%);
   z-index:1000;
    box-shadow:0px 2px 2px #d3d3d3;
 }
+
+.LoadingIndicator>.spinner{
+	display:none; } 
+
+.LoadingIndicator { 
+	width:100%; 
+	display:flex; 
+	justify-content:center; 
+} 
+
+.LoadingIndicator:after { 
+	content:" "; 
+	display:table; 
+	width:40px; 
+	height:40px; 
+	border:4px solid white; 
+	border-top:4px solid green; 
+	border-left:4px solid green; 
+	border-radius:100%; 
+	animation:2s linear infinite loading; 
+} 
+
+@keyframes loading { 
+	0%{ transform:rotate(0deg); 
+	
+	} 
+	
+	50%{ 
+		transform:rotate(360deg); 
+	
+	} 
+	
+	100%{ transform:rotate(720deg); } }
