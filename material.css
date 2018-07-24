@@ -458,7 +458,7 @@ filter: grayscale(40%);
 }
 
 .on.Checkbox--switch .Checkbox-display:before {
-    left: 38px;
+    left: 25px;
     margin-bottom: 7px;
     margin-top: -6px;
 	height: 20px;
@@ -467,7 +467,7 @@ filter: grayscale(40%);
 }
 
 .on.Checkbox--switch .Checkbox-display {
-    background: rgba(0,0,0,.26);
+    background: #4CAF50;
     left: 0;
     top: 5px;
     height: 14px;
@@ -486,6 +486,7 @@ filter: grayscale(40%);
     height: 20px;
     width: 20px;
     border-radius: 50%;
+    margin-top: -6px;
 }
 
 .Checkbox--switch .Checkbox-display {
