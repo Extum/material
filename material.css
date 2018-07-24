@@ -227,11 +227,15 @@ width: 36px;
 .new .NotificationsDropdown-unread {
 	animation: pulse 1s infinite; }
 .TagIcon {
-   margin-top: 4px; }
+   margin-top: 4px;
+   border-radius: 11px;
+}
 .sideNav .TagLinkButton .TagIcon {
     .box-shadow(0 1px 1px @shadow3);
     height: 18px;
-    font-size: 14px !important; }
+    border-radius: 11px;
+    font-size: 14px !important; 
+}
 .Button--icon {
   border: none;
   border-radius: 2px;
