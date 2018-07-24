@@ -12,5 +12,10 @@ Material Design Theme for Flarum.
 1. Navigate to the [style file](https://github.com/Extum/flarum-theme-material/blob/master/material.css)
 2. Copy the CSS code
 3. Paste it inside the Custom CSS area at your Flarum forum
-4. Add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` inside Custom Header.
-4. Enjoy
+4. Add the code below to your custom header area:
+```
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+```
+5. Enjoy
