@@ -529,6 +529,7 @@ filter: grayscale(40%);
 }
 
 .sideNav .Dropdown--select .Dropdown-menu>.Dropdown-separator {
+	background: #e5e7f6;
 }
 
 .Dropdown-separator {
