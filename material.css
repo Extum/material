@@ -248,7 +248,7 @@ width: 36px;
 .sideNav .Dropdown--select .Dropdown-menu {
   display:block;
   border:1;
-  width:auto;
+  width: 64px;
   margin:0;
   padding:0;
   padding-left: 10px;
