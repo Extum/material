@@ -517,13 +517,12 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .FormControl {
-border: none;
+  border: none;
   border-bottom: 2px solid rgba(0,0,0, 0.12);
   display: block;
   font-size: 16px;
   font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
-  padding: 4px 0;
   width: 100%;
   background: none;
   text-align: left;
