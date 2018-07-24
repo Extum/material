@@ -17,12 +17,14 @@
 	-moz-box-shadow:    @shadow;
 	box-shadow:         @shadow;
 }
+   /* Material icons add */
 
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
     @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-    @dfont: "Roboto", Helvetica, Arial, sans-serif;
+   
 
     @shadow3: rgba(0,0,0, .2);
 
@@ -36,7 +38,7 @@
     @dshcolor: #d1d1d1;
 
   body {
-   font-family: @dfont !important;
+   
 }
 
 .IndexPage-newDiscussion {
