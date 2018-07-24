@@ -513,3 +513,8 @@ filter: grayscale(40%);
 .sideNav .Dropdown--select .Dropdown-menu>.Dropdown-separator {
     /* background: none; */
 }
+
+.UserCard-badges>li {
+    display: inline-block;
+    margin-right: 2px;
+}
