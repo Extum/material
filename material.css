@@ -194,7 +194,11 @@ input.Button[type="submit"] {
     line-height: 24px; }
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
 width: 22%;
-    margin-top: 9px; }
+    margin-top: -38px; }
+.DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
+    /* width: 77%; */
+    visibility: hidden;
+}
 .Button--link {
 background: transparent !important;
 margin-right: 9px; }
