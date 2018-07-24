@@ -310,7 +310,7 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1); }
     .NotificationGrid td:first-of-type, .NotificationGrid th:first-of-type {
       padding-left: 24px; }
     .NotificationGrid td:last-of-type, .NotificationGrid th:last-of-type {
-      padding-right: 24px; }
+      /* padding-right: 24px; */ }
   .NotificationGrid td {
     position: relative;
     vertical-align: middle;
@@ -499,3 +499,4 @@ filter: grayscale(40%);
     border-radius: 14px;
     cursor: pointer;
 }
+
