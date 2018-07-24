@@ -516,5 +516,5 @@ filter: grayscale(40%);
 
 .UserCard-badges>li {
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 4px;
 }
