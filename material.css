@@ -549,11 +549,6 @@ border: none;
   box-shadow: 0px 3px 2px lightgray;
   margin-bottom: 5px; }
 
-.DiscussionListItem:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23);
-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
- }
-
 .RecipientsLabel .RecipientLabel:last-child {
  border-radius:0 4px 4px 0;
  margin-right: 6px;
