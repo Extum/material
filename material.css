@@ -503,3 +503,7 @@ filter: grayscale(40%);
     border-radius: 14px;
     cursor: pointer;
 }
+
+.sideNav .Dropdown--select .Dropdown-menu>.Dropdown-separator {
+    /* background: none; */
+}
