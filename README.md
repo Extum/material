@@ -1,4 +1,5 @@
 # Material Design Theme by [Extum](https://github.com/Extum) 
+![Extum Theme](https://img.shields.io/badge/Extum-Theme-orange.svg)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Extum/flarum-theme-material/issues) 
 [![GitHub issues](https://img.shields.io/github/issues/Extum/flarum-theme-material.svg)](https://github.com/Extum/flarum-theme-material/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Extum/flarum-theme-material.svg)](https://github.com/Extum/flarum-theme-material/network)
