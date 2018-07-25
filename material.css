@@ -346,6 +346,7 @@ margin-right: 9px;
 .Post {
   padding-left:105px;
 box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
+border-radius: 3px;
 }
 
 .Post:hover {
@@ -476,7 +477,8 @@ transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 
  .CommentPost:not(.Post--hidden),.ReplyPlaceholder {
   min-height:104px;
-  margin-bottom:15px 
+  margin-bottom:15px;
+  border-radius: 3px;
 }
 
 .DiscussionList-discussions {
@@ -701,7 +703,7 @@ filter: grayscale(40%);
 .ReplyPlaceholder {
  border:none;
 transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
-border-radius: 2px;
+border-radius: 3px;
  }
 
 /* Material Icons Beginning */
