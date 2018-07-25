@@ -1774,3 +1774,9 @@ content:"chat_bubble_outline";
    border-radius:12px;
   
 }
+
+.DiscussionHero .TagsLabel .TagLabel {
+ background:transparent;
+ border-radius:12px !important;
+ font-size:14px
+}
