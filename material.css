@@ -879,7 +879,7 @@ border-radius: 2px;
 }
 
 .fa-wrench:before {
-  font: normal normal normal 16px/1 'Material Icons';
+  font:normal normal normal 14px/1.2 'Material Icons';
   display: inline-block;
   transform: translateY(10%);
   text-transform: none;
