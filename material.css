@@ -659,6 +659,7 @@ filter: grayscale(40%);
     line-height: 31px;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .TagLabel {
