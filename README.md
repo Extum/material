@@ -9,12 +9,24 @@
 Material Design Theme for Flarum.
 
 ## Installation Instructions
-1. Navigate to the [style file](https://github.com/Extum/flarum-theme-material/blob/master/material.css)
-2. Copy the CSS code
-3. Paste it inside the Custom CSS area at your Flarum forum
-4. Add the code below to your custom header area:
+1. Insert the lines below to your custom header area.
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<link rel="stylesheet" href="https://rawgit.com/Extum/flarum-theme-material/master/material.css">
 ```
-5. Enjoy
+2. Enjoy
+
+## Features
+- **Instantly updates itself**: This theme doesn't use the custom CSS area that requires you to update the field every time the theme gets an update. Whenever the master branch gets updated, your forum with the lines below will update instantly!
+
+- **Material icons**: This theme automatically will include Material Icons, meaning you will get the highes Material experience on your forum.
+
+- **Cards and elevation**: The theme will replace the flat design Flarum got with shadows, cards and elevations that Material Design has in it's core.
+
+- **Core fixes**: This theme also includes a bunch of fixes that the core had, so you will have the best Flarum experience ever!
+
+- **UI improvements**: For you to offer your users the best forum experience they can have, Material Design theme by Extum offers you the best experience you can give with UX improvements and more.
+
+- **More**: Explore it yourself, you can find the installation instructions above. Thank you for supporting Extum.
