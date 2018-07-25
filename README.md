@@ -13,7 +13,7 @@ Demo server: https://materialtheme.freeflarum.com/
 
 Feel free to create test posts, signing up, and playing around however you want. It's a demo server 😉
 
-## Installation Instructions
+## Installation instructions
 1. Insert the lines below to your custom header area.
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
