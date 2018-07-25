@@ -670,17 +670,6 @@ filter: grayscale(40%);
     margin-right: 1px;
 }
 
-.App-header {
-  padding:8px;
-  height:52px;
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  z-index:1000;
-   box-shadow:0px 2px 2px #d3d3d3;
-}
-
 .LoadingIndicator>.spinner{
 	display:none; } 
 
