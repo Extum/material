@@ -649,12 +649,15 @@ filter: grayscale(40%);
 }
 
 .LoadingIndicator>.spinner{
-	display:none; } 
+	display:none; 
+	margin-top: 10px;
+} 
 
 .LoadingIndicator { 
 	width:100%; 
 	display:flex; 
 	justify-content:center; 
+	margin-top: 10px;
 } 
 
 .LoadingIndicator:after { 
