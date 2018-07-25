@@ -688,6 +688,1071 @@ border-radius: 3px;
  }
 
 
+/* Material Icons Beginning */
+
+.fa-comment-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"message";
+}
+
+.fa-navicon:before,.fa-reorder:before,.fa-bars:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"format_list_bulleted"
+}
+
+.fa-at:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"alternate_email"
+}
+
+.fa-gear:before,.fa-cog:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"settings"
+}
+
+.fa-comments-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"forum"
+}
+
+.fa-star:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"inbox"
+}
+
+.fa-flag:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"flag"
+}
+
+.fa-warning:before,.fa-exclamation-triangle:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"pan_tool"
+}
+
+.fa-trash-o:before {
+ font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"delete"
+}
+
+.fa-sign-out:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"directions_run"
+}
+
+.fa-wrench:before {
+  font:normal normal normal 14px/1.2 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"build"
+}
+
+.fa-user:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"account_circle"
+}
+
+.fa-bell:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"notifications"
+}
+
+.fa-th-large:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"label"
+}
+
+.fa-pencil:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"edit"
+}
+
+.fa-code-fork:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"call_split"
+}
+
+.fa-envelope-o:before {
+ font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"email"
+}
+
+.fa-thumbs-o-up:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"thumb_up"
+}
+
+.fa-thumbs-o-down:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"thumb_down"
+}
+
+.fa-lock:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"lock"
+}
+
+.fa-mail-reply:before,.fa-reply:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"reply"
+}
+
+.fa-check:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"check"
+}
+
+.fa-search:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"search"
+}
+
+.fa-remove:before,.fa-close:before,.fa-times:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"close"
+}
+
+.fa-bar-chart-o:before,.fa-bar-chart:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"dashboard"
+}
+
+.fa-envelope:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"email"
+}
+
+.fa-key:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"vpn_key"
+}
+
+.fa-puzzle-piece:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"extension"
+}
+
+.fa-paint-brush:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"format_paint"
+}
+
+.fa-file-text-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"insert_drive_file"
+}
+
+.fa-tags:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"label"
+}
+
+.fa-eye:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"remove_red_eye"
+}
+
+.fa-trash:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"delete"
+}
+
+.fa-clock-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"access_time"
+}
+
+.fa-chevron-left:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"keyboard_arrow_left"
+}
+
+.fa-flash:before,.fa-bolt:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"flash_on"
+}
+
+.fa-plus:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"add"
+}
+
+.fa-map-o:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"map"
+}
+
+.fa-edit:before,.fa-pencil-square-o:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"border_color"
+}
+
+.fa-user-plus:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"group_add"
+}
+
+.fa-group:before,.fa-users:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"group"
+}
+
+.fa-i-cursor:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"format_size"
+}
+
+.fa-thumb-tack:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"pin_drop"
+}
+
+.fa-ban:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"not_interested"
+}
+
+.fa-globe:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"language"
+}
+
+.Search-input:before {
+ display:inline-block;
+font: normal normal normal 16px/1 'Material Icons';
+ font-size:inherit;
+ text-rendering:auto;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+ content:"search";
+ float:left;
+ margin-right:-36px;
+ width:36px;
+ font-size:20px;
+ text-align:center;
+ position:relative;
+ padding:0px 0;
+ line-height:1.5;
+ pointer-events:none
+}
+
+.fa-ellipsis-v:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"more_vert"
+}
+
+.fa-drivers-license-o:before,.fa-id-card-o:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"perm_identity"
+}
+
+ .unread .DiscussionListItem-count:before {
+    font: normal normal normal 16px/1 'Material Icons';
+  display:inline-block;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  float:left;
+  margin-left:-21px;
+  margin-top:3px;
+  content:"chat_bubble"
+ }
+
+ .DiscussionListItem-count:before {
+  display:inline-block;
+   font: normal normal normal 16px/1 'Material Icons';
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  float:left;
+  margin-left:-21px;
+  margin-top:3px;
+content:"chat_bubble_outline";
+ }
+
+.fa-photo:before,.fa-image:before,.fa-picture-o:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"photo"
+}
+
+.fa-line-chart:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"timeline"
+}
+
+.fa-film:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"movie"
+}
+
+.fa-bold:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"format_bold"
+}
+
+.fa-minus-square:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"remove"
+}
+
+.fa-address-book-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"contacts"
+}
+
+.fa-money:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"money"
+}
+
+.fa-crop:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"crop"
+}
+
+.fa-language:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"language"
+}
+
+.fa-thumbs-up:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"thumb_up"
+}
+
+.fa-angle-double-right:before {
+  
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"subdirectory_arrow_right"
+}
+
+.fa-pencil-square:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"edit_location"
+}
+
+.fa-sticky-note:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"note"
+}
+
+/* Material Icons Ending */
+
 .TagsLabel .TagLabel {
    border-radius:12px;
  margin-right:3px;
@@ -707,6 +1772,12 @@ border-radius: 3px;
 .TagsLabel .TagLabel:first-child:last-child {
  border-radius:4px;
    border-radius:12px;
+}
+
+.DiscussionHero .TagsLabel .TagLabel {
+ background:transparent;
+ border-radius:12px !important;
+ font-size:14px
 }
 
 .DiscussionHero .TagsLabel .TagLabel {
