@@ -1569,11 +1569,13 @@ content:"chat_bubble_outline";
 
 .TagsLabel .TagLabel {
    border-radius:12px;
+ margin-right:3px;
   
 }
 .TagsLabel .TagLabel:first-child {
  border-radius:4px 0 0 4px;
    border-radius:12px;
+	 margin-right:3px;
   
 }
 .TagsLabel .TagLabel:last-child {
