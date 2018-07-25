@@ -668,6 +668,7 @@ filter: grayscale(40%);
 	border-radius:100%; 
 	animation:2s linear infinite loading; 
 	border-collapse: separate;
+	margin-top: 10px;
 } 
 
 .Checkbox-display .LoadingIndicator:after{
