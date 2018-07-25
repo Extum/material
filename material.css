@@ -1886,3 +1886,10 @@ content:"chat_bubble_outline";
  }
 
 /* Composer Properties End */
+
+.PostUser-badges {
+    position: absolute;
+    top: -12px;
+    left: -54px;
+    /* width: 32px; */
+}
