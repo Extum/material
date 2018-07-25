@@ -1524,15 +1524,13 @@ font: normal normal normal 16px/1 'Material Icons';
  .unread .DiscussionListItem-count:before {
     font: normal normal normal 16px/1 'Material Icons';
   display:inline-block;
-   font: normal normal normal 16px/1 'Material Icons';
   font-size:inherit;
   text-rendering:auto;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  content:"chat_bubble";
   float:left;
   margin-left:-21px;
-  margin-top:3px
+  margin-top:3px;
   content:"chat_bubble"
  }
 
@@ -1543,9 +1541,10 @@ font: normal normal normal 16px/1 'Material Icons';
   text-rendering:auto;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  content:"chat_bubble_outline";
   float:left;
   margin-left:-21px;
-  margin-top:3px
+  margin-top:3px;
+content:"chat_bubble_outline";
  }
+
 /* Material Icons Ending */
