@@ -667,7 +667,13 @@ filter: grayscale(40%);
 	border-left:4px solid green; 
 	border-radius:100%; 
 	animation:2s linear infinite loading; 
+	border-collapse: separate;
 } 
+
+.Checkbox-display .LoadingIndicator:after{
+        width:20px;
+	height:20px;
+}
 
 @keyframes loading { 
 	0%{ transform:rotate(0deg); 
