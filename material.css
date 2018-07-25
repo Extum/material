@@ -1886,3 +1886,11 @@ content:"chat_bubble_outline";
  }
 
 /* Composer Properties End */
+
+.Search-results {
+ max-height:70vh;
+ overflow:auto;
+ left:auto;
+ right:0;
+  border-radius: 3px;
+}
