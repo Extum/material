@@ -5,6 +5,7 @@
     Github:  https://github.com/Extum
     
 */
+
 .affix .App-nav {
     position: fixed;
     bottom: 0;
@@ -28,7 +29,6 @@
 	-moz-box-shadow:    @shadow;
 	box-shadow:         @shadow;
 }
-
 
     @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
