@@ -259,10 +259,12 @@ margin-right: 9px;
     margin-top: -2px; 
 }
 
-.NotificationsDropdown .Dropdown-toggle {
-   text-align: center;
-   padding: 0px 0;
-}
+ .NotificationsDropdown .Dropdown-toggle {
+  width:36px;
+  text-align:center;
+  padding:8px 0;
+  margin-left: 10px;
+ }
 
 @keyframes pulse {
 	0% { transform: scale(1);}
