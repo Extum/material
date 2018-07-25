@@ -229,7 +229,13 @@ input.Button[type="submit"] {
   margin-left: 15px 
 }
 
-
+.SessionDropdown .Dropdown-toggle .Avatar {
+    margin: 6px 5px -2px -6px;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px; 
+}
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
 width: 22%;
