@@ -231,8 +231,8 @@ input.Button[type="submit"] {
 
 .SessionDropdown .Dropdown-toggle .Avatar {
     margin: 6px 5px -2px -6px;
-    width: 24px;
-    height: 24px;
+    width: 100px;
+    height: 100px;
     border-radius:100%;
     font-size: 12px;
     line-height: 24px; 
