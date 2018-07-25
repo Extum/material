@@ -1751,6 +1751,23 @@ content:"chat_bubble_outline";
  content:"note"
 }
 
+.fa-refresh:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"refresh"
+}
+
 /* Material Icons Ending */
 
 .TagsLabel .TagLabel {
