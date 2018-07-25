@@ -1450,3 +1450,73 @@ border-radius: 2px;
   font-feature-settings: 'liga';
  content:"not_interested"
 }
+
+.fa-globe:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"language"
+}
+
+.Search-input:before {
+ display:inline-block;
+font: normal normal normal 16px/1 'Material Icons';
+ font-size:inherit;
+ text-rendering:auto;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+ content:"search";
+ float:left;
+ margin-right:-36px;
+ width:36px;
+ font-size:20px;
+ text-align:center;
+ position:relative;
+ padding:0px 0;
+ line-height:1.5;
+ pointer-events:none
+}
+
+.fa-ellipsis-v:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"more_vert"
+}
+
+.fa-drivers-license-o:before,.fa-id-card-o:before {
+   font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+ content:"perm_identity"
+}
