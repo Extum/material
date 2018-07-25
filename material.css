@@ -705,12 +705,3 @@ filter: grayscale(40%);
 transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
 border-radius: 2px;
  }
-
-.Button--primary {
- color:#fff;
- background:#4369ff;
- font-weight:bold;
- padding-left:20px;
- padding-right:20px;
-  width: 100%
-}
