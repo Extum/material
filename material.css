@@ -706,3 +706,23 @@ filter: grayscale(40%);
 transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
 border-radius: 2px;
  }
+
+.TagsLabel .TagLabel {
+   border-radius:12px;
+  
+}
+.TagsLabel .TagLabel:first-child {
+ border-radius:4px 0 0 4px;
+   border-radius:12px;
+  
+}
+.TagsLabel .TagLabel:last-child {
+ border-radius:0 4px 4px 0;
+   border-radius:12px;
+  
+}
+.TagsLabel .TagLabel:first-child:last-child {
+ border-radius:4px;
+   border-radius:12px;
+  
+}
