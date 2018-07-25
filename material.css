@@ -1802,3 +1802,25 @@ content:"chat_bubble_outline";
  border-radius:12px !important;
  font-size:14px
 }
+
+/* Composer Properties Beginning */
+
+.Composer.minimized {
+ height:46px;
+ cursor:pointer;
+ background:#f6f1e4;
+   border-radius: 3px;
+}
+
+.Composer {
+    border-radius: 3px;
+  background:rgba(255,255,255,0.95);
+  transform:translateZ(0);
+  position:relative;
+  height:300px;
+  -webkit-transition:background 0.2s, box-shadow 0.2s;
+  -o-transition:background 0.2s, box-shadow 0.2s;
+  transition:background 0.2s, box-shadow 0.2s
+ }
+
+/* Composer Properties End */
