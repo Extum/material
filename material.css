@@ -706,7 +706,6 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 border-radius: 2px;
  }
 
-
 /* Material Icons Beginning */
 
 .fa-comment-o:before {
@@ -1566,12 +1565,3 @@ content:"chat_bubble_outline";
 }
 
 /* Material Icons Ending */
-
-.Button--primary {
- color:#fff;
- background:#4369ff;
- font-weight:bold;
- padding-left:20px;
- padding-right:20px;
-  width: 100%
-}
