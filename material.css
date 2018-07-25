@@ -661,6 +661,13 @@ filter: grayscale(40%);
     font-weight: normal;
 }
 
+.TagLabel {
+    font-size: 13px;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+
 .Group {
     width: 0px;
     display: inline-block;
