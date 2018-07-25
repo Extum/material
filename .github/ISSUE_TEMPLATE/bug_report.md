@@ -22,8 +22,10 @@ If applicable, add screenshots to help explain your problem.
 
 **Environment (please complete the following information):**
  - OS: [e.g. Windows 10]
- - Browser [e.g. chrome, safari]
- - Browser Version [e.g. 22]
+ - Browser: [e.g. chrome, safari]
+ - Browser Version: [e.g. 22]
+ - Flarum Url: [e.g. https://discuss.flarum.org]
+ - Flarum Version [0.1.0-beta.8]
 
 **Additional context**
 Add any other context about the problem here.
