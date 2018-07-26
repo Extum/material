@@ -518,10 +518,8 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   width: 100%;
   background: none;
   text-align: left;
-  color: inherit;  
+  color: inherit; 
 }
-
-
 
 .SocialFormControl {
 border: none;
