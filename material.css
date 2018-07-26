@@ -518,7 +518,7 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   width: 100%;
   background: none;
   text-align: left;
-color: inherit;  
+  color: inherit;  
 }
 
 
@@ -1886,14 +1886,4 @@ content:"chat_bubble_outline";
  left:auto;
  right:0;
   border-radius: 3px;
-}
-
-.MailPage-MailSettings-input .FormControl {
- margin-bottom:7px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
-}
-
-.MailPage-MailSettings-input :last-child {
- margin-bottom:0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
 }
