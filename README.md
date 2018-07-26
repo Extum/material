@@ -21,16 +21,14 @@ Feel free to create test posts, signing up, and playing around however you want.
 
 <link rel="stylesheet" href="https://rawgit.com/Extum/flarum-theme-material/master/material.css">
 ```
-2. Enjoy
+2. Enjoy.
 
 ## Features
-- **Instantly updates itself**: This theme doesn't use the custom CSS area that requires you to update the field every time the theme gets an update. Whenever the master branch gets updated, your forum with the lines below will update instantly!
+- **Instantly updates itself**: This theme doesn't use the custom CSS area that requires you to update the field every time the theme gets an update. Whenever the master branch gets updated, your forum with the lines below will update itself.
 
 - **Material icons**: This theme automatically will include Material Icons, meaning you will get the highes Material experience on your forum.
 
 - **Cards and elevation**: The theme will replace the flat design Flarum got with shadows, cards and elevations that Material Design has in it's core.
-
-- **Core fixes**: This theme also includes a bunch of fixes that the core had, so you will have the best Flarum experience ever!
 
 - **UI improvements**: For you to offer your users the best forum experience they can have, Material Design theme by Extum offers you the best experience you can give with UX improvements and more.
 
