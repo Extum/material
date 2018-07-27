@@ -1,0 +1,35 @@
+{
+    "name": "Extum/flarum-ext-material",
+    "description": "Apply a beautiful Material theme to your Flarum forum.",
+    "type": "flarum-extension",
+    "keywords": ["theme, material, extension, flarum"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arda Çebi",
+            "email": "ardacebi1@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Extum/flarum-ext-material/issues",
+        "source": "https://github.com/Extum/flarum-ext-material"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+   
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Material Design",
+            "icon": {
+                "image": "icon.jpg",
+                "backgroundSize": "cover",
+                "backgroundColor": "#5e8e14",
+                "color": "#fff"
+            }
+        }
+    }
+}
