@@ -1,0 +1,38 @@
+{
+  "name": "extum/flarum-ext-material",
+  "description": "Material Design for Flarum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta-7"
+  },
+  "authors": [
+    {
+      "name": "Extum",
+      "email": "ardacebi1@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Extum\\MDL\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Material Design",
+      "icon": {
+          "image": "icon.jpg",
+          "backgroundSize": "cover",
+          "backgroundColor": "#5e8e14",
+          "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
