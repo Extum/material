@@ -16,6 +16,7 @@ Feel free to create test posts, signing up, and playing around however you want.
 ## Installation instructions
 1. Insert the lines below to your custom header area.
 ```
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-deep_purple.min.css" /> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
