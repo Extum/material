@@ -15,7 +15,9 @@ Feel free to create test posts, signing up, and playing around however you want.
 
 ## Installation
 
-`composer require Extum/flarum-ext-material`
+```
+composer require Extum/flarum-ext-material
+```
 
 ## Features
 - **Material icons**: This extension automatically will include Material Icons, meaning you will get the highes Material experience on your forum.
