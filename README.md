@@ -8,6 +8,12 @@
 
 Material Design Extension for Flarum.
 
+---
+
+![](https://image.ibb.co/exYnDo/Screenshot_2018_07_27_Extum_Material_Theme_Demo_2.png)
+
+---
+
 ## Try it out
 Demo server: https://materialtheme.freeflarum.com/
 
