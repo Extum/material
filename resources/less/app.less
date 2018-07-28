@@ -550,8 +550,6 @@ input.Button[type="submit"] {
  transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
 }
 
-
-
 .FormControl {
   border: none;
   border-bottom: 2px solid rgba(0,0,0, 0.12);
@@ -719,15 +717,13 @@ filter: grayscale(40%);
 
 @keyframes loading { 
 	0%{ transform:rotate(0deg); 
-	
 	} 
-	
 	50%{ 
 		transform:rotate(360deg); 
-	
 	} 
-	
-	100%{ transform:rotate(720deg); } }
+	100%{ transform:rotate(720deg);
+  } 
+}
 
 .ReplyPlaceholder {
  border:none;
@@ -1844,25 +1840,24 @@ div#ff-footer {
   content:"fullscreen_exit"
 }
 
-
 /* Material Icons Ending */
 
 .TagsLabel .TagLabel {
    border-radius:12px;
    margin-right:3px;
-  
 }
+
 .TagsLabel .TagLabel:first-child {
    border-radius:4px 0 0 4px;
    border-radius:12px;
    margin-right:3px;
-  
 }
+
 .TagsLabel .TagLabel:last-child {
    border-radius:0 4px 4px 0;
    border-radius:12px;
-  
 }
+
 .TagsLabel .TagLabel:first-child:last-child {
    border-radius:4px;
    border-radius:12px;
