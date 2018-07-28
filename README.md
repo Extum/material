@@ -31,5 +31,3 @@ composer require Extum/flarum-ext-material
 - **Cards and elevation**: The extension will replace the flat design Flarum got with shadows, cards and elevations that Material Design has in it's core.
 
 - **UI improvements**: For you to offer your users the best forum experience they can have, Material Design extension by Extum offers you the best experience you can give with UX improvements and more.
-
-- **More**: Explore it yourself, you can find the installation instructions above. Thank you for supporting Extum.
