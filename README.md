@@ -10,7 +10,7 @@ Material Design Extension for Flarum.
 
 ---
 
-![](https://image.ibb.co/exYnDo/Screenshot_2018_07_27_Extum_Material_Theme_Demo_2.png)
+![](https://image.ibb.co/iz3QKT/Screenshot_2018_07_28_Extum_Material_Theme_Demo_11.png)
 
 ---
 
