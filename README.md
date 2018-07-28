@@ -22,7 +22,7 @@ Feel free to create test posts, signing up, and playing around however you want.
 ## Installation
 
 ```
-composer require Extum/flarum-ext-material
+composer require extum/flarum-ext-material
 ```
 
 ## Features
