@@ -3,7 +3,7 @@
     Version: 1.0.0
     Contact: ardacebi1@gmail.com
     Github:  https://github.com/Extum
-
+    
 */
 
 .affix .App-nav {
@@ -44,16 +44,15 @@
     box-shadow: none;
 }
 
-.box-shadow (@shadow) {
+    .box-shadow (@shadow) {
 	-webkit-box-shadow: @shadow;
 	-moz-box-shadow:    @shadow;
 	box-shadow:         @shadow;
 }
+
     @import url('https://fonts.googleapis.com/css?family=Roboto');
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
     @dfont: "Roboto", Helvetica, Arial, sans-serif;
-
     @shadow3: rgba(0,0,0, .2);
 
     // whitestyle
@@ -97,8 +96,8 @@
 }
 
   .IndexPage-newDiscussion:hover {
-  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(20%); 
+   -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(20%); 
 }
 
   .IndexPage-newDiscussion:focus:not(:active) {
@@ -117,11 +116,11 @@
 
     .IndexPage-newDiscussion.IndexPage-newDiscussion--colored:focus:not(:active) {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); 
+     filter: grayscale(40%); 
 }
 
-input.IndexPage-newDiscussion[type="submit"] {
-  -webkit-appearance: none; 
+    input.IndexPage-newDiscussion[type="submit"] {
+     -webkit-appearance: none; 
 }
 
    .IndexPage-newDiscussion--raised:active {
@@ -187,7 +186,7 @@ input.IndexPage-newDiscussion[type="submit"] {
 }
 
   .Button:hover {
-  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+   -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
     filter: grayscale(20%); 
 }
 
@@ -207,7 +206,7 @@ input.IndexPage-newDiscussion[type="submit"] {
 
     .Button.Button--colored:focus:not(:active) {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); 
+     filter: grayscale(40%); 
 }
 
 input.Button[type="submit"] {
@@ -216,7 +215,7 @@ input.Button[type="submit"] {
 
   .Button--raised:active {
      -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%); 
+     filter: grayscale(40%); 
 }
 
   .Button--raised:focus:not(:active) {
@@ -261,16 +260,14 @@ input.Button[type="submit"] {
 
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
-width: 22%;
-    margin-top: -38px; 
+  width: 22%;
+  margin-top: -38px; 
 }
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
     width: 0%;
     margin-top: -36px;
-    margin-left: 127px;
-    border: none;
-    box-shadow: none;
+    margin-left: 133px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 0px;
@@ -279,7 +276,6 @@ width: 22%;
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
     width: 85%;
-    box-shadow: none;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 0px;
@@ -290,8 +286,8 @@ width: 22%;
 }
 
 .Button--link {
-background: transparent !important;
-margin-right: 9px; 
+    background: transparent !important;
+    margin-right: 9px; 
 }
 
 .DiscussionListItem-controls .Dropdown-toggle {
@@ -392,8 +388,8 @@ margin-right: 9px;
 
 .Post {
   padding-left:105px;
-box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
-border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
+  border-radius: 3px;
 }
 
 .NotificationGrid {
@@ -403,8 +399,8 @@ border-radius: 3px;
   white-space: nowrap;
   font-size: 13px;
   background-color: rgb(255,255,255);
-box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
-margin-bottom:5px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23); 
+  margin-bottom:5px; 
 }
 
   .NotificationGrid thead {
@@ -521,13 +517,13 @@ margin-bottom:5px;
 }
 
 .DiscussionList-discussions {
- list-style-type:none;
- position:relative;
+  list-style-type:none;
+  position:relative;
   box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding-left: 15px;
   margin-top: 20px;
- border-radius: 2px;
+  border-radius: 2px;
 }
 
 .DiscussionListItem {
@@ -550,11 +546,9 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
  border-radius:4px;
  padding:2px 5px;
  border:0 !important;
-  box-shadow: 0 2px 1px rgba(0,0,0,0.16), 0 2px 1px rgba(0,0,0,0.23);
-transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+ box-shadow: 0 2px 1px rgba(0,0,0,0.16), 0 2px 1px rgba(0,0,0,0.23);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
 }
-
-
 
 .FormControl {
   border: none;
@@ -723,15 +717,13 @@ filter: grayscale(40%);
 
 @keyframes loading { 
 	0%{ transform:rotate(0deg); 
-	
 	} 
-	
 	50%{ 
 		transform:rotate(360deg); 
-	
 	} 
-	
-	100%{ transform:rotate(720deg); } }
+	100%{ transform:rotate(720deg);
+  } 
+}
 
 .ReplyPlaceholder {
  border:none;
@@ -751,12 +743,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"message";
+  content:"message";
 }
 
 .fa-navicon:before,.fa-reorder:before,.fa-bars:before {
@@ -768,12 +759,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"format_list_bulleted"
+  content:"format_list_bulleted"
 }
 
 .fa-at:before {
@@ -785,12 +775,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"alternate_email"
+  content:"alternate_email"
 }
 
 .fa-gear:before,.fa-cog:before {
@@ -802,12 +791,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"settings"
+  content:"settings"
 }
 
 .fa-comments-o:before {
@@ -819,12 +807,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"forum"
+  content:"forum"
 }
 
 .fa-star:before {
@@ -836,12 +823,27 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"inbox"
+  content:"star"
+}
+
+.fa-star-o:before {
+  font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  content:"star_border"
 }
 
 .fa-flag:before {
@@ -853,12 +855,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"flag"
+  content:"flag"
 }
 
 .fa-warning:before,.fa-exclamation-triangle:before {
@@ -870,12 +871,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"pan_tool"
+  content:"pan_tool"
 }
 
 .fa-trash-o:before {
@@ -887,12 +887,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"delete"
+  content:"delete"
 }
 
 .fa-sign-out:before {
@@ -904,12 +903,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"directions_run"
+  content:"directions_run"
 }
 
 .fa-wrench:before {
@@ -925,7 +923,7 @@ border-radius: 3px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"build"
+  content:"build"
 }
 
 .fa-user:before {
@@ -941,7 +939,7 @@ border-radius: 3px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"account_circle"
+  content:"account_circle"
 }
 
 .fa-bell:before {
@@ -957,7 +955,7 @@ border-radius: 3px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"notifications"
+  content:"notifications"
 }
 
 .fa-th-large:before {
@@ -973,7 +971,7 @@ border-radius: 3px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"label"
+  content:"label"
 }
 
 .fa-pencil:before {
@@ -985,12 +983,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"edit"
+  content:"edit"
 }
 
 .fa-code-fork:before {
@@ -1006,7 +1003,7 @@ border-radius: 3px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"call_split"
+  content:"call_split"
 }
 
 .fa-envelope-o:before {
@@ -1018,12 +1015,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"email"
+  content:"email"
 }
 
 .fa-thumbs-o-up:before {
@@ -1035,12 +1031,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"thumb_up"
+  content:"thumb_up"
 }
 
 .fa-thumbs-o-down:before {
@@ -1052,12 +1047,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"thumb_down"
+  content:"thumb_down"
 }
 
 .fa-lock:before {
@@ -1069,12 +1063,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"lock"
+  content:"lock"
 }
 
 .fa-mail-reply:before,.fa-reply:before {
@@ -1086,12 +1079,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"reply"
+  content:"reply"
 }
 
 .fa-check:before {
@@ -1103,12 +1095,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"check"
+  content:"check"
 }
 
 .fa-search:before {
@@ -1120,12 +1111,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"search"
+  content:"search"
 }
 
 .fa-remove:before,.fa-close:before,.fa-times:before {
@@ -1137,12 +1127,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"close"
+  content:"close"
 }
 
 .fa-bar-chart-o:before,.fa-bar-chart:before {
@@ -1154,12 +1143,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"dashboard"
+  content:"dashboard"
 }
 
 .fa-envelope:before {
@@ -1171,12 +1159,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"email"
+  content:"email"
 }
 
 .fa-key:before {
@@ -1188,12 +1175,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"vpn_key"
+  content:"vpn_key"
 }
 
 .fa-puzzle-piece:before {
@@ -1205,12 +1191,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"extension"
+  content:"extension"
 }
 
 .fa-paint-brush:before {
@@ -1222,12 +1207,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"format_paint"
+  content:"format_paint"
 }
 
 .fa-file-text-o:before {
@@ -1239,12 +1223,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"insert_drive_file"
+  content:"insert_drive_file"
 }
 
 .fa-tags:before {
@@ -1256,12 +1239,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"label"
+  content:"label"
 }
 
 .fa-eye:before {
@@ -1273,12 +1255,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"remove_red_eye"
+  content:"remove_red_eye"
 }
 
 .fa-trash:before {
@@ -1290,12 +1271,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"delete"
+  content:"delete"
 }
 
 .fa-clock-o:before {
@@ -1307,12 +1287,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"access_time"
+  content:"access_time"
 }
 
 .fa-chevron-left:before {
@@ -1324,12 +1303,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"keyboard_arrow_left"
+  content:"keyboard_arrow_left"
 }
 
 .fa-flash:before,.fa-bolt:before {
@@ -1341,12 +1319,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"flash_on"
+  content:"flash_on"
 }
 
 .fa-plus:before {
@@ -1358,12 +1335,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"add"
+  content:"add"
 }
 
 .fa-map-o:before {
@@ -1375,12 +1351,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"map"
+  content:"map"
 }
 
 .fa-edit:before,.fa-pencil-square-o:before {
@@ -1392,12 +1367,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"border_color"
+  content:"border_color"
 }
 
 .fa-user-plus:before {
@@ -1409,12 +1383,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"group_add"
+  content:"group_add"
 }
 
 .fa-group:before,.fa-users:before {
@@ -1426,12 +1399,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"group"
+  content:"group"
 }
 
 .fa-i-cursor:before {
@@ -1443,12 +1415,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"format_size"
+  content:"format_size"
 }
 
 .fa-thumb-tack:before {
@@ -1460,12 +1431,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"place"
+  content:"place"
 }
 
 .fa-ban:before {
@@ -1477,12 +1447,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"not_interested"
+  content:"not_interested"
 }
 
 .fa-globe:before {
@@ -1494,12 +1463,11 @@ border-radius: 3px;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"language"
+  content:"language"
 }
 
 .Search-input:before {
@@ -1530,12 +1498,11 @@ font: normal normal normal 16px/1 'Material Icons';
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"more_vert"
+  content:"more_vert"
 }
 
 .fa-drivers-license-o:before,.fa-id-card-o:before {
@@ -1547,16 +1514,15 @@ font: normal normal normal 16px/1 'Material Icons';
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"perm_identity"
+  content:"perm_identity"
 }
 
  .unread .DiscussionListItem-count:before {
-    font: normal normal normal 16px/1 'Material Icons';
+  font: normal normal normal 16px/1 'Material Icons';
   display:inline-block;
   font-size:inherit;
   text-rendering:auto;
@@ -1570,7 +1536,7 @@ font: normal normal normal 16px/1 'Material Icons';
 
  .DiscussionListItem-count:before {
   display:inline-block;
-   font: normal normal normal 16px/1 'Material Icons';
+  font: normal normal normal 16px/1 'Material Icons';
   font-size:inherit;
   text-rendering:auto;
   -webkit-font-smoothing:antialiased;
@@ -1578,11 +1544,11 @@ font: normal normal normal 16px/1 'Material Icons';
   float:left;
   margin-left:-21px;
   margin-top:3px;
-content:"chat_bubble_outline";
+ content:"chat_bubble_outline";
  }
 
 .fa-photo:before,.fa-image:before,.fa-picture-o:before {
-   font: normal normal normal 16px/1 'Material Icons';
+  font: normal normal normal 16px/1 'Material Icons';
   display: inline-block;
   transform: translateY(10%);
   text-transform: none;
@@ -1590,12 +1556,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"photo"
+  content:"photo"
 }
 
 .fa-line-chart:before {
@@ -1607,12 +1572,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"timeline"
+  content:"timeline"
 }
 
 .fa-film:before {
@@ -1624,12 +1588,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"movie"
+  content:"movie"
 }
 
 .fa-bold:before {
@@ -1690,12 +1653,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"minimize"
+  content:"minimize"
 }
 
 .fa-address-book-o:before {
@@ -1707,12 +1669,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"contacts"
+  content:"contacts"
 }
 
 .fa-money:before {
@@ -1724,12 +1685,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"money"
+  content:"money"
 }
 
 .fa-crop:before {
@@ -1741,12 +1701,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"crop"
+  content:"crop"
 }
 
 .fa-language:before {
@@ -1758,12 +1717,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"language"
+  content:"language"
 }
 
 .fa-thumbs-up:before {
@@ -1775,16 +1733,14 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"thumb_up"
+  content:"thumb_up"
 }
 
 .fa-angle-double-right:before {
-  
   font: normal normal normal 16px/1 'Material Icons';
   display: inline-block;
   transform: translateY(10%);
@@ -1793,12 +1749,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"subdirectory_arrow_right"
+  content:"subdirectory_arrow_right"
 }
 
 .fa-pencil-square:before {
@@ -1810,12 +1765,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"edit_location"
+  content:"edit_location"
 }
 
 .fa-sticky-note:before {
@@ -1827,12 +1781,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"note"
+  content:"note"
 }
 
 .fa-refresh:before {
@@ -1844,12 +1797,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"refresh"
+  content:"refresh"
 }
 
 .fa-minus:before {
@@ -1861,12 +1813,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"remove"
+  content:"remove"
 }
 
 .fa-expand:before {
@@ -1878,12 +1829,11 @@ content:"chat_bubble_outline";
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"fullscreen"
+  content:"fullscreen"
 }
 
 div#ff-footer {
@@ -1899,61 +1849,59 @@ div#ff-footer {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"fullscreen_exit"
+  content:"fullscreen_exit"
 }
-
 
 /* Material Icons Ending */
 
 .TagsLabel .TagLabel {
    border-radius:12px;
- margin-right:3px;
-  
+   margin-right:3px;
 }
+
 .TagsLabel .TagLabel:first-child {
- border-radius:4px 0 0 4px;
+   border-radius:4px 0 0 4px;
    border-radius:12px;
-	 margin-right:3px;
-  
+   margin-right:3px;
 }
+
 .TagsLabel .TagLabel:last-child {
- border-radius:0 4px 4px 0;
+   border-radius:0 4px 4px 0;
    border-radius:12px;
-  
 }
+
 .TagsLabel .TagLabel:first-child:last-child {
- border-radius:4px;
+   border-radius:4px;
    border-radius:12px;
 }
 
 .DiscussionHero .TagsLabel .TagLabel {
- background:transparent;
- border-radius:12px !important;
- font-size:14px
+   background:transparent;
+   border-radius:12px !important;
+   font-size:14px
 }
 
 .DiscussionHero .TagsLabel .TagLabel {
- background:transparent;
- border-radius:12px !important;
- font-size:14px
+   background:transparent;
+   border-radius:12px !important;
+   font-size:14px
 }
 
 /* Composer Properties Beginning */
 
 .Composer.minimized {
- height:46px;
- cursor:pointer;
- background:#f6f1e4;
+   height:46px;
+   cursor:pointer;
+   background:#f6f1e4;
    border-radius: 3px;
 }
 
 .Composer {
-    border-radius: 3px;
+  border-radius: 3px;
   background:rgba(255,255,255,0.95);
   transform:translateZ(0);
   position:relative;
@@ -1966,14 +1914,14 @@ div#ff-footer {
 /* Composer Properties End */
 
 .Search-results {
- max-height:70vh;
- overflow:auto;
- left:auto;
- right:0;
+  max-height:70vh;
+  overflow:auto;
+  left:auto;
+  right:0;
   border-radius: 3px;
 }
 
 .EventPost,.EventPost a {
- color:#998a66;
+  color:#998a66;
   margin-bottom: 15px;
 }
