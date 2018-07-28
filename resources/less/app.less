@@ -12,6 +12,14 @@
     background: #F5F5F5;
 }
 
+.Form--centered .Button {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 0px;
+    height: 35px;
+}
+
 .App-header {
     padding: 8px;
     height: 52px;
@@ -21,6 +29,18 @@
     right: 0;
     z-index: 1000;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+}
+
+.PermissionGrid tbody .Dropdown .Dropdown-toggle {
+    width: auto;
+    display: block;
+    text-align: center;
+    float: none;
+    padding-top: 0px;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-right: 8px;
+    box-shadow: none;
 }
 
 .box-shadow (@shadow) {
@@ -226,7 +246,7 @@ input.Button[type="submit"] {
 
 .SessionDropdown .Dropdown-toggle {
   border-radius: 18px;
-  margin-left: 15px 
+  margin-left: 15px;
 }
 
 .SessionDropdown .Dropdown-toggle .Avatar {
@@ -244,10 +264,30 @@ width: 22%;
     margin-top: -38px; 
 }
 
-.DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
-    /* width: 77%; */
-    visibility: hidden;
+.DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
+    width: 0%;
+    margin-top: -36px;
+    margin-left: 127px;
+    border: none;
+    box-shadow: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
+
+.DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
+    width: 85%;
+    box-shadow: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
+}
+
 .Button--link {
 background: transparent !important;
 margin-right: 9px; 
@@ -265,6 +305,13 @@ margin-right: 9px;
   padding:0px 0;
   margin-left: 10px;
  }
+
+.Dropdown-menu>li>a .Button-icon, .Dropdown-menu>li>button .Button-icon, .Dropdown-menu>li>span .Button-icon {
+    float: left;
+    margin-left: -25px;
+    width: 1.28571429em;
+    text-align: center;
+}
 
 @keyframes pulse {
 	0% { transform: scale(1);}
@@ -289,7 +336,7 @@ margin-right: 9px;
   border-radius: 2px;
   position: relative;
   margin: 0;
-  padding: 0 16px;
+  padding: 0 15px;
   display: inline-block;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
@@ -637,6 +684,9 @@ filter: grayscale(40%);
     padding-right: 0;
     padding-bottom: 10px;
     padding-top: 0px;
+    margin-right: 4px;
+    box-shadow: none;
+    border-radius: 2px;
 }
 
 .LoadingIndicator>.spinner{
@@ -1598,6 +1648,38 @@ content:"chat_bubble_outline";
  content:"format_bold"
 }
 
+.fa-minus:before {
+    font: normal normal normal 16px/1 'Material Icons';
+    display: inline-block;
+    transform: translateY(10%);
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    content: "minimize";
+}
+
+.Composer-controls .fa-minus:before {
+    font: normal normal normal 16px/1 'Material Icons';
+    display: inline-block;
+    transform: translateY(10%);
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    content: "minimize";
+}
+
 .fa-minus-square:before {
   font: normal normal normal 16px/1 'Material Icons';
   display: inline-block;
@@ -1612,7 +1694,7 @@ content:"chat_bubble_outline";
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
- content:"remove"
+ content:"minimize"
 }
 
 .fa-address-book-o:before {
@@ -1801,6 +1883,10 @@ content:"chat_bubble_outline";
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
  content:"fullscreen"
+}
+
+div#ff-footer {
+    visibility: hidden;
 }
 
 .fa-compress:before {
