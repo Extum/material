@@ -27,7 +27,7 @@
       "icon": {
           "image": "icon.jpg",
           "backgroundSize": "cover",
-          "backgroundColor": "#5e8e14",
+          "backgroundColor": "#dbc6f9",
           "color": "#fff"
       }
     },
