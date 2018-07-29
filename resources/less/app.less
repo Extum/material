@@ -6,6 +6,60 @@
 
 */
 
+.on.Checkbox--switch .Checkbox-display:before {
+    left: 25px;
+    margin-bottom: 7px;
+    margin-top: -6px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: @secondary-color;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.2), 0 1px 8px 0 rgba(0,0,0,.12);
+}
+
+.on.Checkbox--switch .Checkbox-display {
+    background: lighten(@secondary-color, 15%);
+    left: 0;
+    top: 5px;
+    height: 14px;
+    width: 36px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+	
+.Checkbox--switch .Checkbox-display:before {
+    content: ' ';
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.35);
+    left: -8px;
+    margin-bottom: 7px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.Checkbox--switch .Checkbox-display {
+    width: 50px;
+    height: 28px;
+    padding: 3px;
+    position: relative;
+    background: #e4e8f6;
+    transition: background-color .2s;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    background: rgba(0,0,0,0.26);
+    left: 0;
+    top: 5px;
+    height: 14px;
+    width: 36px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
 .affix .App-nav {
     position: fixed;
     bottom: 0;
