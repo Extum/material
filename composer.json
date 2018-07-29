@@ -1,9 +1,7 @@
 {
   "name": "extum/flarum-ext-material",
   "description": "Material Design for Flarum",
-  "keywords": [
-    "flarum"
-  ],
+  "keywords": ["theme", "material-design", "material", "flarum-extension", "flarum", "style"],
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
