@@ -1947,6 +1947,22 @@ font: normal normal normal 16px/1 'Material Icons';
   content:"fullscreen_exit"
 }
 
+.fa-ellipsis-h:before {
+ font: normal normal normal 16px/1 'Material Icons';
+  display: inline-block;
+  transform: translateY(10%);
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  content:"more_horiz";
+}
+
 /* Material Icons Ending */
 
 .TagsLabel .TagLabel {
@@ -2129,3 +2145,61 @@ font: normal normal normal 16px/1 'Material Icons';
  .item-changePassword {
    padding-right: 5px;
  }
+ .ExtensionListItem {
+  width:120px;
+  height:160px;
+  margin-right:15px;
+  margin-bottom:15px;
+  box-shadow: @default-shadow;
+ }
+
+ .ExtensionIcon {
+  width:120px;
+  height:120px;
+  background:#e4ecf6;
+  border-radius: 0;
+  color:#667c99;
+  display:inline-block;
+  font-size:60px;
+  line-height:120px;
+  text-align:center
+ }
+
+
+  .ExtensionListItem.disabled .ExtensionListItem-title {
+   opacity:0.5;
+   color:#667c99;
+   padding-left:2px;
+  }
+
+  .ExtensionListItem-title {
+   display:block;
+   font-size:13px;
+   font-weight:bold;
+    margin-top: 3px;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+   cursor:pointer;
+   padding-left:4px
+  }
+
+  .ExtensionListItem-version {
+   color:#aaa;
+   font-size:11px;
+   font-weight:normal;
+   padding-left:4px
+  }
+
+  .ExtensionListItem-version {
+   color:#aaa;
+   font-size:11px;
+   font-weight:normal;
+    padding-left: 2px;
+  }
+
+  .ExtensionIcon:hover {
+      background-color:#000;
+      opacity:0.5;
+      transition: all .3s cubic-bezier(.25, .8, .25, 1);
+  }
