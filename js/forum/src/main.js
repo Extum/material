@@ -1,12 +1,10 @@
 import app from 'flarum/app';
 import { extend } from 'flarum/extend';
 import HeaderPrimary from 'flarum/components/HeaderPrimary';
-import material from "@material/button/mdc-button";
-import {MDCRipple} from '@material/ripple';
 
 app.initializers.add('extum/flarum-ext-material', () => {
     extend(HeaderPrimary.prototype, 'init', function () {
-        $('head').prepend('<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">' +
+        /*$('head').prepend('<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">' +
             'https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css' +
             'https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js' + 
             '<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/styles.css">' +
@@ -16,7 +14,7 @@ app.initializers.add('extum/flarum-ext-material', () => {
             '<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">' +       
             '<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css">' +      
             '<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>');
-        //document.getElementById("Button").classList.add("foo-button", "mdc-button");
-        //document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
+        document.getElementById("Button").classList.add("foo-button", "mdc-button");
+        document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");*/
     });
 });
