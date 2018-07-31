@@ -16,7 +16,7 @@ app.initializers.add('extum/flarum-ext-material', () => {
             '<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">' +       
             '<link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css">' +      
             '<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>');
-        document.getElementById("Button").classList.add("foo-button", "mdc-button");
-        document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
+        //document.getElementById("Button").classList.add("foo-button", "mdc-button");
+        //document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
     });
 });
