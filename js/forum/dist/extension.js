@@ -14,7 +14,7 @@ System.register('extum/flarum-ext-material/main', ['flarum/app', 'flarum/extend'
         }],
         execute: function () {
 
-            app.initializers.add('zaptech-cookie-consent', function () {
+            app.initializers.add('extum/flarum-ext-material', function () {
                 extend(Page.prototype, 'init', function () {
                     $('head').prepend('<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">' + '<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>');
                 });
