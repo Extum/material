@@ -14,7 +14,7 @@ namespace Extum\MDL\Listeners;
 
 use DirectoryIterator;
 use Flarum\Event\ConfigureLocales;
-use Flarum\Event\ConfigureWebApp;
+use Flarum\Frontend\Event\Rendering;
 use Illuminate\Contracts\Events\Dispatcher;
 
 class AddClientAssets
@@ -27,16 +27,16 @@ class AddClientAssets
      */
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(ConfigureWebApp::class, [$this, 'configureWebApp']);
+        $events->listen(Rendering::class, [$this, 'configureWebApp']);
         $events->listen(ConfigureLocales::class, [$this, 'addLocales']);
     }
     
     /**
      * Modifies the client view for forum/admin.
      *
-     * @param ConfigureWebApp $event
+     * @param Rendering $event
      */
-    public function configureWebApp(ConfigureWebApp $event)
+    public function configureWebApp(Rendering $event)
     {
         if ($event->isAdmin()) {
             $event->addAssets([
