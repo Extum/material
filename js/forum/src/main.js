@@ -14,5 +14,6 @@ app.initializers.add('extum/flarum-ext-material', () => {
             'https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css' +
             'https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js' +     
             '<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>');
+        $('body').prepend('<script>mdc.ripple.MDCRipple.attachTo(document.querySelector(".Button"));document.querySelector(".Button").classList.add("mdc-button");');
     });
 });
