@@ -1,5 +1,4 @@
 <?php
-
 /**
  *  This file is part of extum/flarum-ext-material.
  *
@@ -9,17 +8,13 @@
  *  For the full copyright and license information, please view the LICENSE.md
  *  file that was distributed with this source code.
  */
-
 namespace Extum\MDL\Listeners;
-
 use DirectoryIterator;
 use Flarum\Event\ConfigureLocales;
-use Flarum\Frontend\Event\Rendering;
+use Flarum\Event\ConfigureWebApp;
 use Illuminate\Contracts\Events\Dispatcher;
-
 class AddClientAssets
 {
-
     /**
      * Subscribes to the Flarum events.
      *
@@ -27,16 +22,16 @@ class AddClientAssets
      */
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(Rendering::class, [$this, 'configureWebApp']);
+        $events->listen(ConfigureWebApp::class, [$this, 'configureWebApp']);
         $events->listen(ConfigureLocales::class, [$this, 'addLocales']);
     }
     
     /**
      * Modifies the client view for forum/admin.
      *
-     * @param Rendering $event
+     * @param ConfigureWebApp $event
      */
-    public function configureWebApp(Rendering $event)
+    public function configureWebApp(ConfigureWebApp $event)
     {
         if ($event->isAdmin()) {
             $event->addAssets([
@@ -45,7 +40,6 @@ class AddClientAssets
             ]);
             $event->addBootstrapper('extum/flarum-ext-material/main');
         }
-
         if ($event->isForum()) {
             $event->addAssets([
                 __DIR__.'/../../js/forum/dist/extension.js',
