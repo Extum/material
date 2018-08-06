@@ -621,7 +621,6 @@ input.Button[type="submit"] {
 .DiscussionList-discussions {
   list-style-type:none;
   position:relative;
-  box-shadow: @default-shadow;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding-left: 15px;
   margin-top: 20px;
@@ -635,7 +634,9 @@ input.Button[type="submit"] {
   padding-left:15px;
   margin-left:-15px;
   border-radius: 2px;
-  transition:background .2s
+  transition:background .2s;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
 }
 
 .NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),.NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
