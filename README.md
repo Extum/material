@@ -23,9 +23,19 @@ Feel free to create test posts, signing up, and playing around however you want.
 
 ## Installation
 
-```
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
+
+```bash
 composer require extum/flarum-ext-material
 ```
+
+## Updating
+
+```bash
+composer require extum/flarum-ext-material
+php flarum cache:clear
+```
+
 
 ## Features
 - **Material icons**: This extension automatically will include Material Icons, meaning you will get the highes Material experience on your forum.
