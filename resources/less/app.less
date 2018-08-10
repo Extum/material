@@ -67,7 +67,7 @@
     background: #F5F5F5;
 }
 
-.Form--centered .Button {
+.Form--centered .Button{
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
@@ -251,14 +251,14 @@ li.item-tag1, li.item-tag2, li.item-tag3, li.item-tag4, li.item-tag5, li.item-ta
 }
 
 .Button {
-    box-shadow: @default-shadow;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border: none;
     border-radius: 2px;
     position: relative;
     height: 36px;
     margin: 0;
     min-width: 44px;
-    padding: 0 16px;
+    padding: 1px 12px;
     display: inline-block;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 14px;
@@ -436,27 +436,27 @@ input.Button[type="submit"] {
 }
 
 .Button--icon {
-  border: none;
-  border-radius: 2px;
-  position: relative;
-  margin-left: 5px;
-  padding: 0 15px;
-  display: inline-block;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: 0;
-  overflow: hidden;
-  will-change: box-shadow;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  line-height: 36px;
-  vertical-align: middle;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 5px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1),background-color .2s cubic-bezier(.4, 0, .2, 1),color .2s cubic-bezier(.4, 0, .2, 1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    padding-top: 0px;
 }
 
 .Button--icon .Button-icon {
