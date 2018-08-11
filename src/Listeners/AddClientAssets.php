@@ -35,18 +35,25 @@ class AddClientAssets
     {
         if ($event->isAdmin()) {
             $event->addAssets([
-                __DIR__.'/../../js/admin/dist/extension.js',
                 __DIR__.'/../../resources/less/admin.less',
             ]);
-            $event->addBootstrapper('extum/flarum-ext-material/main');
         }
         if ($event->isForum()) {
             $event->addAssets([
-                __DIR__.'/../../js/forum/dist/extension.js',
                 __DIR__.'/../../resources/less/app.less',
             ]);
-            $event->addBootstrapper('extum/flarum-ext-material/main');
         }
+
+        $view = $event->view;
+
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/styles.css\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/baseline.css\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/sharp.css\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css\">");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css\">");
+        $view->addFootString("<script src=\"https://code.getmdl.io/1.3.0/material.min.js\"></script>");
     }
     
     /**

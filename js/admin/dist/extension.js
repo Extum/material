@@ -10,9 +10,7 @@ System.register('extum/flarum-ext-material/main', ['flarum/app'], function (_exp
     }],
     execute: function () {
 
-      app.initializers.add('extum/flarum-ext-material', function () {
-        //console.log('Hello, admin!');
-      });
+      app.initializers.add('extum/flarum-ext-material', function () {});
     }
   };
 });
