@@ -6,6 +6,67 @@
 
 */
 
+.App-nav .AdminNav .Button-icon {
+    float: left;
+    margin-left: -30px;
+    font-size: 14px;
+    margin-top: 0px !important;
+}
+
+.Dropdown-toggle.Button.Button--icon.Button--flat {
+    box-shadow: none;
+    margin-right: 9px;
+    margin-top: 1.4px;
+}
+
+.SessionDropdown .Dropdown-toggle .Avatar {
+    margin: 5px 3px -2px -6px;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.ExtensionListItem {
+    width: 145px;
+    height: 192px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.ExtensionIcon {
+    width: 145px;
+    height: auto;
+    color: #667c99;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 150px;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.Dropdown-toggle.Button.Button--icon.Button--flat {
+    box-shadow: none;
+}
+
+li.item-changePassword {
+    margin-right: 3px;
+}
+
+li.item-changeEmail {
+ margin-right:8px
+}
+
+.App-nav .AdminNav .Dropdown-menu > li.active > a .Button-label, .App-nav .AdminNav .Dropdown-menu > li.active > a .Button-icon {
+    color: #111;
+    font-weight: normal;
+}
+
 .on.Checkbox--switch .Checkbox-display:before {
     left: 25px;
     margin-bottom: 7px;
@@ -15,6 +76,21 @@
     border-radius: 50%;
     background: @primary-color;
     box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.2), 0 1px 8px 0 rgba(0,0,0,.12);
+}
+
+.fa-circle:before {
+    color: #00C851;
+}
+
+.UserCard-lastSeen.online .fa-circle {
+    color: #00C851;
+}
+
+.Modal-close {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 1;
 }
 
 .on.Checkbox--switch .Checkbox-display {
@@ -67,7 +143,7 @@
     background: #F5F5F5;
 }
 
-.Form--centered .Button {
+.Form--centered .Button{
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
@@ -95,12 +171,14 @@ li.item-tag1, li.item-tag2, li.item-tag3, li.item-tag4, li.item-tag5, li.item-ta
     width: 0px;
 }
 
-.sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
+.sideNav .Dropdown--select .Dropdown-menu > li > a .Button-icon {
     float: left;
-    margin-left: -30px;
-    margin-top: 1px;
-    font-size: 15px;
+    margin-left: -26px;
+    margin-top: 0px;
+    font-size: 19px;
     border-radius: 2px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
 }
 
 .Form--centered .Button {
@@ -251,14 +329,14 @@ li.item-tag1, li.item-tag2, li.item-tag3, li.item-tag4, li.item-tag5, li.item-ta
 }
 
 .Button {
-    box-shadow: @default-shadow;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border: none;
     border-radius: 2px;
     position: relative;
     height: 36px;
     margin: 0;
     min-width: 44px;
-    padding: 0 16px;
+    padding: 1px 12px;
     display: inline-block;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 14px;
@@ -341,16 +419,6 @@ input.Button[type="submit"] {
   margin-left: 15px;
 }
 
-.SessionDropdown .Dropdown-toggle .Avatar {
-    margin: 6px 5px -2px -6px;
-    width: 24px;
-    height: 24px;
-    border-radius: 24px;
-    font-size: 12px;
-    line-height: 24px;
-}
-
-
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
   width: 22%;
   margin-top: -38px;
@@ -412,17 +480,16 @@ input.Button[type="submit"] {
 
 .TagIcon {
  border-radius:4px;
- width:16px;
- height:16px;
+ width:18px;
+ height:18px;
  display:inline-block;
  vertical-align:-3px;
  margin-left:1px;
  background:#e8ecf3;
-  -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+ -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
  -moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
  box-shadow:0 1px 1px rgba(0,0,0,0.2);
- height:18px;
- font-size:14px !important;
+ font-size:14px !important
 }
 
 .TagIcon {
@@ -436,27 +503,27 @@ input.Button[type="submit"] {
 }
 
 .Button--icon {
-  border: none;
-  border-radius: 2px;
-  position: relative;
-  margin-left: 5px;
-  padding: 0 15px;
-  display: inline-block;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: 0;
-  overflow: hidden;
-  will-change: box-shadow;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  line-height: 36px;
-  vertical-align: middle;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 5px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1),background-color .2s cubic-bezier(.4, 0, .2, 1),color .2s cubic-bezier(.4, 0, .2, 1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    padding-top: 0px;
 }
 
 .Button--icon .Button-icon {
@@ -469,23 +536,18 @@ input.Button[type="submit"] {
 .DiscussionListItem-author {
  float:left;
  margin-top:13px;
- transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  background: radial-gradient(circle at center 75px, transparent, transparent 50px);
-  -webkit-filter:drop-shadow(0px 2px 1px #9b9b9b);
-  overflow: hidden;
+ overflow:hidden
 }
 
 .PostUser-avatar {
-  left:-85px;
-  position:absolute;
-  width:64px;
-  height:64px;
-  border-radius:64px;
-  font-size:32px;
-  line-height:64px;
-   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  -webkit-filter:drop-shadow(0px 2px 1px #9b9b9b);
-  overflow: hidden;
+ left:-85px;
+ position:absolute;
+ width:64px;
+ height:64px;
+ border-radius:64px;
+ font-size:32px;
+ line-height:64px;
+ overflow:hidden
 }
 
 .Post {
@@ -619,13 +681,13 @@ input.Button[type="submit"] {
 }
 
 .DiscussionList-discussions {
-  list-style-type:none;
-  position:relative;
-  box-shadow: @default-shadow;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  padding-left: 15px;
-  margin-top: 20px;
-  border-radius: 2px;
+ list-style-type:none;
+ position:relative;
+ box-shadow:0 2px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+ transition:all .3s cubic-bezier(.25, .8, .25, 1);
+ padding-left:15px;
+ margin-top:20px;
+ border-radius:4px
 }
 
 .DiscussionListItem {
@@ -904,8 +966,9 @@ border-radius: 3px;
   content:"label"
 }
 
-.fa-pencil:before {
-  content:"edit"
+.fa-pencil::before {
+    content: "edit";
+    font-size: 19px;
 }
 
 .fa-code-fork:before {
@@ -1314,6 +1377,7 @@ font: normal normal normal 16px/1 'Material Icons';
 .fa-bullseye:before {
  content:"trip_origin"
 }
+
 
 /* Font Aweome Completion Start */
 
@@ -3348,6 +3412,10 @@ font: normal normal normal 16px/1 'Material Icons';
     margin-right: 5px;
 }
 
+.PostMention::before {
+    content: "alternate_email";
+}
+
 /* Font Aweome Completion Ending */
 
 /* Material Icons Ending */
@@ -3527,7 +3595,7 @@ font: normal normal normal 16px/1 'Material Icons';
  text-align:left;
  color:#111;
  font-size:13px;
- line-height:1.5
+ line-height:1.7
 }
 
  .Button--text {
@@ -3632,5 +3700,27 @@ font: normal normal normal 16px/1 'Material Icons';
   }
 
   li.item-tag1,li.item-tag2,li.item-tag3,li.item-tag4,li.item-tag5,li.item-tag6,li.item-tag7,li.item-tag8,li.item-tag9,li.item-tag10,li.item-tag11,li.item-tag12,li.item-tag13,li.item-tag14,li.item-tag15,li.item-tag16,li.item-tag17,li.item-tag18,li.item-tag19,li.item-tag20 {
-  padding-left:0px;
+    padding-left: 4px;
+  }
+
+  .AdminLinkButton-description {
+    margin-left: 6px;
+   display:none
+  }
+
+  .App-nav .AdminNav .Dropdown-menu>li>a {
+   padding:15px 15px 15px 39px;
+   display:block;
+   text-decoration:none;
+   white-space:normal
+  }
+
+  .sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
+      float: left;
+      margin-left: -26px;
+      margin-top: 1px;
+      font-size: 19px;
+      border-radius: 2px;
+      padding-bottom: 3px;
+      margin-bottom: 0px;
   }
