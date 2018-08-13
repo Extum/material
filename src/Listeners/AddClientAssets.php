@@ -25,7 +25,7 @@ class AddClientAssets
         $events->listen(ConfigureWebApp::class, [$this, 'configureWebApp']);
         $events->listen(ConfigureLocales::class, [$this, 'addLocales']);
     }
-    
+
     /**
      * Modifies the client view for forum/admin.
      *
@@ -47,15 +47,9 @@ class AddClientAssets
         $view = $event->view;
 
         $view->addHeadString("<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/styles.css\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/baseline.css\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/sharp.css\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/non-spec-apps/mio-icons/latest/twotone.css\">");
         $view->addFootString("<script src=\"https://code.getmdl.io/1.3.0/material.min.js\"></script>");
     }
-    
+
     /**
      * Provides i18n files.
      *
