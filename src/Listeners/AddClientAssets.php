@@ -47,8 +47,8 @@ class AddClientAssets
         $view = $event->view;
 
         $view->addHeadString("<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">");
-        $view->addHeadString("<link rel=\"stylesheet\" href=\"/bower_components/material-design-lite/material.min.css\">");
-        $view->addHeadString("<script src=\"/bower_components/material-design-lite/material.min.js\"></script>");
+        $view->addHeadString("<link rel=\"stylesheet\" href=\"/node_modules/material-design-lite/material.min.css\">");
+        $view->addHeadString("<script src=\"/node_modules/material-design-lite/material.min.js\"></script>");
         $view->addFootString("<script src=\"https://code.getmdl.io/1.3.0/material.min.js\"></script>");
     }
 
