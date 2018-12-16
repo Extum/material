@@ -32,7 +32,7 @@ php flarum cache:clear
 
 
 ## Features
-- **Material icons**: This extension automatically will include Material Icons, meaning you will get the highes Material experience on your forum.
+- **Material icons**: This extension automatically will include Material Icons, meaning you will get the highest Material experience on your forum.
 
 - **Cards and elevation**: The extension will replace the flat design Flarum got with shadows, cards and elevations that Material Design has in it's core.
 
