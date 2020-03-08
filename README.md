@@ -1,29 +1,39 @@
-# Material
+# Material Design Extension by [Extum](https://github.com/Extum) 
+![Extum Extension](https://img.shields.io/badge/Extum-Extension-orange.svg)
+[![Latest Stable Version](https://img.shields.io/packagist/v/Extum/flarum-ext-material.svg)](https://packagist.org/packages/Extum/flarum-ext-material)
+[![Total Downloads](https://img.shields.io/packagist/dt/Extum/flarum-ext-material.svg)](https://packagist.org/packages/Extum/flarum-ext-material)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Extum/flarum-ext-material/issues) 
+[![GitHub issues](https://img.shields.io/github/issues/Extum/flarum-ext-material.svg)](https://github.com/Extum/flarum-ext-material/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Extum/flarum-ext-material.svg)](https://github.com/Extum/flarum-ext-material/network)
+[![GitHub stars](https://img.shields.io/github/stars/Extum/flarum-ext-material.svg)](https://github.com/Extum/flarum-ext-material/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Extum/flarum-ext-material/master/LICENSE)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/extum/flarum-ext-material.svg)](https://packagist.org/packages/extum/flarum-ext-material)
+Material Design Extension for Flarum.
 
-A [Flarum](http://flarum.org) extension. 
+## Try it out
+Demo server: https://materialtheme.freeflarum.com/
 
-### Installation
+Feel free to create test posts, signing up, and playing around however you want. It's a demo server 😉
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
+## Installation
 
-```sh
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
+
+```bash
 composer require extum/flarum-ext-material
 ```
 
-### Updating
+## Updating
 
-```sh
-composer update extum/flarum-ext-material
+```bash
+composer require extum/flarum-ext-material
+php flarum cache:clear
 ```
 
-### Links
 
-- [Packagist](https://packagist.org/packages/extum/flarum-ext-material)
+## Features
+- **Material icons**: This extension automatically will include Material Icons, meaning you will get the highest Material experience on your forum.
 
-### Source
+- **Cards and elevation**: The extension will replace the flat design Flarum got with shadows, cards and elevations that Material Design has in it's core.
 
-```sh
-npm i
-```
+- **UI improvements**: For you to offer your users the best forum experience they can have, Material Design extension by Extum offers you the best experience you can give with UX improvements and more.
