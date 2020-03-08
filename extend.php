@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of extum/flarum-ext-material.
+ * This file is part of extum/flarum-ext-material2.
  *
  * Copyright (c) 2020 Arda Cebi.
  *

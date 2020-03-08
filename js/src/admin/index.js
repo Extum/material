@@ -1,3 +1,3 @@
-app.initializers.add('extum/flarum-ext-material', () => {
-  console.log('[extum/flarum-ext-material] Hello, admin!');
+app.initializers.add('extum/flarum-ext-material2', () => {
+  console.log('[extum/flarum-ext-material2] Hello, admin!');
 });
