@@ -1,33 +1,36 @@
 {
-    "name": "extum/flarum-ext-material",
-    "description": "Extum Material brings Flarum to the next-level with Material Design!",
-    "keywords": ["theme", "material-design", "material", "flarum-extension", "flarum", "style"],
-    "type": "flarum-extension",
-    "require": {
-        "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.12"
-    },
-    "authors": [
-        {
-            "name": "Extum",
-            "email": "ardacebi1@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {"Extum\\MDL\\": "src/"}
-    },
-    "extra": {
-        "flarum-extension": {
-            "title": "Extum Material",
-            "icon": {
-                "image": "icon.jpg",
-                "backgroundSize": "cover",
-                "backgroundColor": "#dbc6f9",
-                "color": "#fff"
-            }
-        }
+  "name": "extum/flarum-ext-material",
+  "description": "Material Design for Flarum",
+  "keywords": ["theme", "material-design", "material", "flarum-extension", "flarum", "style"],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta-7"
+  },
+  "authors": [
+    {
+      "name": "Extum",
+      "email": "ardacebi1@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Extum\\MDL\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Material Design",
+      "icon": {
+          "image": "icon.jpg",
+          "backgroundSize": "cover",
+          "backgroundColor": "#dbc6f9",
+          "color": "#fff"
+      }
     },
     "flagrow": {
-        "discuss": "https://discuss.flarum.org/d/14335-material-design-extension-theme-by-extum"
+      "discuss": "https://discuss.flarum.org/d/14335-material-design-extension-theme-by-extum"
     }
+  }
 }
