@@ -22,3 +22,4 @@ return [
         ->css(__DIR__.'/resources/less/admin.less'),
     new Extend\Locales(__DIR__ . '/resources/locale')
 ];
+
