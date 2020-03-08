@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace KodedScorpius\Material;
+namespace Extum\MDL;
 
 use Flarum\Extend;
 
