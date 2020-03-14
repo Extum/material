@@ -1,10 +1,190 @@
+// Buttons
+.Button {
+    box-shadow: none;
+}
+
+.ButtonGroup .Button+.Button {
+    margin: 0;
+}
+
+.Button--icon .Button-icon {
+    vertical-align: -2px;
+}
+
+.Button--primary {
+    background: @primary-color;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, .12);
+    height: 36px;
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Button--primary:hover {
+    background: lighten(@primary-color, 2.5);
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
+}
+
+.Button--primary:active {
+    background: @primary-color;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
+}
+
+.Button--primary:focus {
+    background: @primary-color;
+}
+
+.Dropdown-toggle {
+    box-shadow: none !important;
+    color: @primary-color;
+}
+
+.Dropdown-toggle:hover, .Dropdown-toggle:focus {
+    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .05) !important;
+}
+
+.Dropdown-toggle:active {
+    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .1) !important;
+}
+
+.Dropdown--split>.Dropdown-toggle {
+    background: none;
+    border: 1px solid @primary-color;
+    border-left: none;
+}
+
+.open>.Dropdown-toggle.Button {
+    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .1) !important;
+}
+
+.SplitDropdown-button {
+    background: none !important;
+    border: 1px solid @primary-color;
+    box-shadow: none !important;
+    color: @primary-color;
+}
+
+// Composer
+.Composer {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    box-shadow: none !important;
+}
+
+// Discussion List
+.DiscussionListItem {
+    border-radius: 8px;
+}
+
+.DiscussionListItem-author {
+    margin-top: 16px !important;
+}
+
+.DiscussionListItem-title {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+}
+
+// Dropdown
+.Dropdown-menu {
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .1), 0px 8px 10px 1px rgba(0, 0, 0, .05), 0px 3px 14px 2px rgba(0, 0, 0, .05);
+}
+
+.Dropdown-menu>li>a:hover, .Dropdown-menu>li>button:hover {
+    background: rgba(0, 0, 0, .05) !important;
+}
+
+// Font aspect
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500|Roboto:400,500&display=swap');
+
+.Button, .Button--primary, .Button-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.DiscussionLockedPost .EventPost-icon, .DiscussionLockedPost .EventPost-info, .DiscussionLockedPost .EventPost-info a {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+h1, h2, h3, h4, h5, h6, .Header-title {
+    font-family: 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 101px;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 63px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+}
+
+.Header-title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Placeholder p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.item-terminalPost>span, .item-terminalPost>span>*  {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.25px !important;
+}
+
+span.username {
+    font-weight: 500;
+}
+
 // Icons
-@import url('https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css');
+@import url('https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css');
 
 .icon {
-    font-family: "Material Design Icons" !important;
+    font-family: "Material Design Icons";
     font-weight: normal;
     font-style: normal;
+    font-size: 16px;
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -448,12 +628,12 @@
 
 .fa-bell:before {
     // Switched to mdi-bell-outline
-    content: "\F09C";
+    content: "\F009C";
 }
 
 .fa-bell-slash:before {
     // Switched to mdi-bell-off-outline
-    content: "\FA90";
+    content: "\F0A91";
 }
 
 .fa-bezier-curve:before {
@@ -542,7 +722,7 @@
 
 .fa-bold:before {
     // Switched to mdi-format-bold
-    content: "\F264";
+    content: "\F0264";
 }
 
 .fa-bolt:before {
@@ -783,42 +963,42 @@
 
 .fa-caret-down:before {
     // Switched to mdi-chevron-down
-    content: "\F140";
+    content: "\F0140";
 }
 
 .fa-caret-left:before {
     // Switched to mdi-chevron-left
-    content: "\F141";
+    content: "\F0141";
 }
 
 .fa-caret-right:before {
     // Switched to mdi-chevron-right
-    content: "\F142";
+    content: "\F0142";
 }
 
 .fa-caret-square-down:before {
     // Switched to mdi-chevron-down-box-outline
-    content: "\F9D6";
+    content: "\F09D7";
 }
 
 .fa-caret-square-left:before {
     // Switched to mdi-chevron-left-box-outline
-    content: "\F9D8";
+    content: "\F09D9";
 }
 
 .fa-caret-square-right:before {
     // Switched to mdi-chevron-right-box-outline
-    content: "\F9DA";
+    content: "\F09DB";
 }
 
 .fa-caret-square-up:before {
     // Switched to mdi-chevron-up-box-outline
-    content: "\F9DC";
+    content: "\F09DD";
 }
 
 .fa-caret-up:before {
     // Switched to mdi-chevron-up
-    content: "\F143";
+    content: "\F0143";
 }
 
 .fa-carrot:before {
@@ -927,22 +1107,22 @@
 
 .fa-check:before {
     // Switched to mdi-check
-    content: "\F12C";
+    content: "\F012C";
 }
 
 .fa-check-circle:before {
     // Switched to mdi-check-circle-outline
-    content: "\F5E1";
+    content: "\F05E1";
 }
 
 .fa-check-double:before {
     // Switched to mdi-check-all
-    content: "\F12D";
+    content: "\F012D";
 }
 
 .fa-check-square:before {
     // Switched to mdi-check-box-outline
-    content: "\FC2E";
+    content: "\F0C52";
 }
 
 .fa-cheese:before {
@@ -982,35 +1162,43 @@
 }
 
 .fa-chevron-circle-down:before {
-    content: "\f13a";
+    // Switched to mdi-chevron-down-circle-outline
+    content: "\F0B27";
 }
 
 .fa-chevron-circle-left:before {
-    content: "\f137";
+    // Switched to mdi-chevron-left-circle-outline
+    content: "\F0B29";
 }
 
 .fa-chevron-circle-right:before {
-    content: "\f138";
+    // Switched to mdi-chevron-right-circle-outline
+    content: "\F0B2B";
 }
 
 .fa-chevron-circle-up:before {
-    content: "\f139";
+    // Switched to mdi-chevron-up-circle-outline
+    content: "\F0B2D";
 }
 
 .fa-chevron-down:before {
-    content: "\f078";
+    // Switched to mdi-chevron-down
+    content: "\F0140";
 }
 
 .fa-chevron-left:before {
-    content: "\f053";
+    // Switched to mdi-chevron-left
+    content: "\F0141";
 }
 
 .fa-chevron-right:before {
-    content: "\f054";
+    // Switched to mdi-chevron-right
+    content: "\F0142";
 }
 
 .fa-chevron-up:before {
-    content: "\f077";
+    // Switched to mdi-chevron-up
+    content: "\F0143";
 }
 
 .fa-child:before {
@@ -1127,17 +1315,17 @@
 
 .fa-code:before {
     // Switched to mdi-code-tags
-    content: "\F174";
+    content: "\F0174";
 }
 
 .fa-code-branch:before {
     // Switched to mdi-source-branch
-    content: "\F62C";
+    content: "\F062C";
 }
 
 .fa-codepen:before {
     // Switched to mdi-codepen
-    content: "\F175";
+    content: "\F0175";
 }
 
 .fa-codiepie:before {
@@ -1149,13 +1337,13 @@
 }
 
 .fa-cog:before {
-    // Switched to mdi-settings-outline
-    content: "\F8BA";
+    // Switched to mdi-cog-outline
+    content: "\F08BB";
 }
 
 .fa-cogs:before {
     // Switched to mdi-settings-helper
-    content: "\FA6D";
+    content: "\F0A6E";
 }
 
 .fa-coins:before {
@@ -1168,12 +1356,12 @@
 
 .fa-comment:before {
     // Switched to mdi-comment-outline
-    content: "\F182";
+    content: "\F0182";
 }
 
 .fa-comment-alt:before {
     // Switched to mdi-comment-text-outline
-    content: "\F189";
+    content: "\F0189";
 }
 
 .fa-comment-dollar:before {
@@ -1194,7 +1382,7 @@
 
 .fa-comments:before {
     // Switched to mdi-comment-text-multiple-outline
-    content: "\F860";
+    content: "\F0861";
 }
 
 .fa-comments-dollar:before {
@@ -1650,11 +1838,13 @@
 }
 
 .fa-ellipsis-h:before {
-    content: "\f141";
+    // Switched to mdi-dots-horizontal
+    content: "\F01D8";
 }
 
 .fa-ellipsis-v:before {
-    content: "\f142";
+    // Switched to mdi-dots-vertical
+    content: "\F01D9";
 }
 
 .fa-ello:before {
@@ -1739,7 +1929,7 @@
 
 .fa-expand:before {
     // Switched to mdi-fullscreen
-    content: "\F293";
+    content: "\F0293";
 }
 
 .fa-expand-arrows-alt:before {
@@ -1759,15 +1949,18 @@
 }
 
 .fa-eye:before {
-    content: "\f06e";
+    // Switched to mdi-eye-outline
+    content: "\F06D0";
 }
 
 .fa-eye-dropper:before {
-    content: "\f1fb";
+    // Switched to mdi-eyedropper
+    content: "\F020A";
 }
 
 .fa-eye-slash:before {
-    content: "\f070";
+    // Switched to mdi-eye-off-outline
+    content: "\F06D1";
 }
 
 .fa-facebook:before {
@@ -1988,17 +2181,17 @@
 
 .fa-flag:before {
     // Switched to mdi-flag-outline
-    content: "\F23D";
+    content: "\F023D";
 }
 
 .fa-flag-checkered:before {
     // Switched to mdi-flag-checkered
-    content: "\F23C";
+    content: "\F023C";
 }
 
 .fa-flag-usa:before {
     // Switched to mdi-flag-variant-outline
-    content: "\F23E";
+    content: "\F023E";
 }
 
 .fa-flask:before {
@@ -2539,7 +2732,7 @@
 
 .fa-heading:before {
     // Switched to mdi-format-header-3
-    content: "\F26D";
+    content: "\F026D";
 }
 
 .fa-headphones:before {
@@ -2776,7 +2969,7 @@
 
 .fa-italic:before {
     // Switched to mdi-format-italic
-    content: "\F277";
+    content: "\F0277";
 }
 
 .fa-itch-io:before {
@@ -3037,12 +3230,12 @@
 
 .fa-lock:before {
     // Switched to mdi-lock-outline
-    content: "\F341";
+    content: "\F0341";
 }
 
 .fa-lock-open:before {
     // Switched to mdi-lock-open-variant-outline
-    content: "\FFE7";
+    content: "\F0FC7";
 }
 
 .fa-long-arrow-alt-down:before {
@@ -3263,17 +3456,17 @@
 
 .fa-minus:before {
     // Switched to mdi-minus
-    content: "\F374";
+    content: "\F0374";
 }
 
 .fa-minus-circle:before {
     // Switched to mdi-minus-circle-outline
-    content: "\F377";
+    content: "\F0377";
 }
 
 .fa-minus-square:before {
     // Switched to mdi-minus-box-outline
-    content: "\F6F1";
+    content: "\F06F2";
 }
 
 .fa-mitten:before {
@@ -3825,7 +4018,8 @@
 }
 
 .fa-puzzle-piece:before {
-    content: "\f12e";
+    // Switched to mdi-puzzle-outline
+    content: "\F0A66";
 }
 
 .fa-python:before {
@@ -3862,12 +4056,12 @@
 
 .fa-quote-left:before {
     // Switched to mdi-format-quote-open-outline
-    content: "\F01D2";
+    content: "\F11A7";
 }
 
 .fa-quote-right:before {
     // Switched to mdi-format-quote-close-outline
-    content: "\F01D3";
+    content: "\F11A8";
 }
 
 .fa-quran:before {
@@ -3967,11 +4161,13 @@
 }
 
 .fa-reply:before {
-    content: "\f3e5";
+    // Switched to mdi-reply-outline
+    content: "\F0F20";
 }
 
 .fa-reply-all:before {
-    content: "\f122";
+    // Switched to mdi-reply-all-outline
+    content: "\F0F1F";
 }
 
 .fa-replyd:before {
@@ -4544,7 +4740,7 @@
 
 .fa-star:before {
     // Switched to mdi-account-star-outline
-    content: "\FBC4";
+    content: "\F0BE8";
 }
 
 .fa-star-and-crescent:before {
@@ -4725,12 +4921,12 @@
 
 .fa-sync:before {
     // Switched to mdi-refresh
-    content: "\F450";
+    content: "\F0450";
 }
 
 .fa-sync-alt:before {
-    // Switched to mdi-restart
-    content: "\F708";
+    // Switched to mdi-refresh-circle
+    content: "\F1377";
 }
 
 .fa-syringe:before {
@@ -4762,11 +4958,13 @@
 }
 
 .fa-tag:before {
-    content: "\f02b";
+    // Switched to mdi-tag-outline
+    content: "\F04FC";
 }
 
 .fa-tags:before {
-    content: "\f02c";
+    // Switched to mdi-tag-multiple-outline
+    content: "\F12F7";
 }
 
 .fa-tape:before {
@@ -4835,7 +5033,7 @@
 
 .fa-th-large:before {
     // Switched to mdi-tag-multiple-outline
-    content: "\F0322";
+    content: "\F12F7";
 }
 
 .fa-th-list:before {
@@ -4896,7 +5094,7 @@
 
 .fa-thumbtack:before {
     // Switched to mdi-pin-outline
-    content: "\F930";
+    content: "\F0931";
 }
 
 .fa-ticket-alt:before {
@@ -4905,12 +5103,12 @@
 
 .fa-times:before {
     // Switched to mdi-close
-    content: "\F156";
+    content: "\F0156";
 }
 
 .fa-times-circle:before {
     // Switched to mdi-close-circle-outline
-    content: "\F15A";
+    content: "\F015A";
 }
 
 .fa-tint:before {
@@ -5155,17 +5353,17 @@
 
 .fa-user:before {
     // Switched to mdi-account-outline
-    content: "\F013";
+    content: "\F0013";
 }
 
 .fa-user-alt:before {
     // Switched to mdi-account-outline
-    content: "\F013";
+    content: "\F0013";
 }
 
 .fa-user-alt-slash:before {
     // Switched to mdi-account-off-outline
-    content: "\FBC3";
+    content: "\F0BE7";
 }
 
 .fa-user-astronaut:before {
@@ -5174,32 +5372,32 @@
 
 .fa-user-check:before {
     // Switched to mdi-account-check-outline
-    content: "\FBBE";
+    content: "\F0BE2";
 }
 
 .fa-user-circle:before {
     // Switched to mdi-account-circle-outline
-    content: "\FB31";
+    content: "\F0B55";
 }
 
 .fa-user-clock:before {
     // Switched to mdi-account-clock-outline
-    content: "\FB33";
+    content: "\F0B57";
 }
 
 .fa-user-cog:before {
     // Switched to mdi-account-settings-outline
-    content: "\F00F4";
+    content: "\F10C9";
 }
 
 .fa-user-edit:before {
     // Switched to mdi-account-edit-outline
-    content: "\F001D";
+    content: "\F0FFB";
 }
 
 .fa-user-friends:before {
     // Switched to mdi-account-heart-outline
-    content: "\FBBF";
+    content: "\F0BE3";
 }
 
 .fa-user-graduate:before {
@@ -5212,7 +5410,7 @@
 
 .fa-user-lock:before {
     // Switched to mdi-account-lock-outline
-    content: "\F018A";
+    content: "\F115F";
 }
 
 .fa-user-md:before {
@@ -5221,7 +5419,7 @@
 
 .fa-user-minus:before {
     // Switched to mdi-account-multiple-minus-outline
-    content: "\FAEB";
+    content: "\F0BE5";
 }
 
 .fa-user-ninja:before {
@@ -5234,7 +5432,7 @@
 
 .fa-user-plus:before {
     // Switched to mdi-account-plus-outline
-    content: "\F800";
+    content: "\F0801";
 }
 
 .fa-user-secret:before {
@@ -5243,22 +5441,22 @@
 
 .fa-user-shield:before {
     // Switched to mdi-shield-account-outline
-    content: "\FA11";
+    content: "\F0A12";
 }
 
 .fa-user-slash:before {
     // Switched to mdi-account-off-outline
-    content: "\FBC3";
+    content: "\F0BE7";
 }
 
 .fa-user-tag:before {
     // Switched to mdi-account-search-outline
-    content: "\F934";
+    content: "\F0935";
 }
 
 .fa-user-tie:before {
     // Switched to mdi-account-tie-outline
-    content: "\F00F5";
+    content: "\F10CA";
 }
 
 .fa-user-times:before {
@@ -5267,12 +5465,12 @@
 
 .fa-users:before {
     // Switched to mdi-account-multiple-outline
-    content: "\F00F";
+    content: "\F000F";
 }
 
 .fa-users-cog:before {
     // Switched to mdi-account-settings-outline
-    content: "\F00F4";
+    content: "\F10C9";
 }
 
 .fa-usps:before {
@@ -5628,7 +5826,33 @@
     font-size: 18px;
 }
 
+// Posts
+.EventPost {
+    margin-top: 25px;
+}
+
+.EventPost>div>.icon {
+    font-size: 18px !important;
+}
+
+.Post {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+.Post.editing {
+    top: 50px;
+}
+
+.Post-footer {
+    margin: 0;
+}
+
+.PostStream-item:not(:last-child) {
+    border: none;
+}
+
 // Sidenav
 .sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
-    font-size: 20px !important;
+    font-size: 20px;
 }

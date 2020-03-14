@@ -1,4 +1,4 @@
-# Material
+<!--# Material
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/extum/flarum-ext-material2.svg)](https://packagist.org/packages/extum/flarum-ext-material2)
 
@@ -26,4 +26,11 @@ composer update extum/flarum-ext-material2
 
 ```sh
 npm i
-```
+```-->
+# Extum Material
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/extum/flarum-ext-material.svg)](https://packagist.org/packages/extum/flarum-ext-material)
+
+### What's new with this commit
+* Added fonts. Made exception for `font-size` from material.io's "The type system"
+* Modified LESS to begin taking shape. Borders and shadows are implemented on a small amount of components at this time.
+* Upgraded Material Design Icons to 5.0.45
