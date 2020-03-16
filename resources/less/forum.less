@@ -1,184 +1,27 @@
-// Buttons
-.Button {
-    box-shadow: none;
-}
-
-.ButtonGroup .Button+.Button {
-    margin: 0;
-}
-
-.Button--icon .Button-icon {
-    vertical-align: -2px;
-}
-
-.Button--primary {
-    background: @primary-color;
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, .12);
-    height: 36px;
-    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.Button--primary:hover {
-    background: lighten(@primary-color, 2.5);
-    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
-}
-
-.Button--primary:active {
-    background: @primary-color;
-    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, .12);
-}
-
-.Button--primary:focus {
-    background: @primary-color;
-}
-
-.Dropdown-toggle {
-    box-shadow: none !important;
-    color: @primary-color;
-}
-
-.Dropdown-toggle:hover, .Dropdown-toggle:focus {
-    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .05) !important;
-}
-
-.Dropdown-toggle:active {
-    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .1) !important;
-}
-
-.Dropdown--split>.Dropdown-toggle {
-    background: none;
-    border: 1px solid @primary-color;
-    border-left: none;
-}
-
-.open>.Dropdown-toggle.Button {
-    background: rgba(red(@primary-color), green(@primary-color), blue(@primary-color), .1) !important;
-}
-
-.SplitDropdown-button {
-    background: none !important;
-    border: 1px solid @primary-color;
-    box-shadow: none !important;
-    color: @primary-color;
-}
-
-// Composer
-.Composer {
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-bottom: none;
-    border-radius: 12px 12px 0 0;
-    box-shadow: none !important;
-}
-
-// Discussion List
-.DiscussionListItem {
-    border-radius: 8px;
-}
-
-.DiscussionListItem-author {
-    margin-top: 16px !important;
-}
-
-.DiscussionListItem-title {
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    letter-spacing: 0.5px !important;
-}
-
-// Dropdown
-.Dropdown-menu {
-    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, .1), 0px 8px 10px 1px rgba(0, 0, 0, .05), 0px 3px 14px 2px rgba(0, 0, 0, .05);
-}
-
-.Dropdown-menu>li>a:hover, .Dropdown-menu>li>button:hover {
-    background: rgba(0, 0, 0, .05) !important;
-}
-
-// Font aspect
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500|Roboto:400,500&display=swap');
-
-.Button, .Button--primary, .Button-label {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1.25px;
-    text-transform: uppercase;
-}
-
-.DiscussionLockedPost .EventPost-icon, .DiscussionLockedPost .EventPost-info, .DiscussionLockedPost .EventPost-info a {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.25px;
-}
-
-h1, h2, h3, h4, h5, h6, .Header-title {
-    font-family: 'Muli', sans-serif;
-}
-
-h1 {
-    font-size: 101px;
-    font-weight: 300;
-    letter-spacing: -1.5px;
-}
-
-h2 {
-    font-size: 63px;
-    font-weight: 300;
-    letter-spacing: -0.5px;
-}
-
-h3 {
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 0px;
-}
-
-h4 {
-    font-size: 36px;
-    font-weight: 400;
-    letter-spacing: 0.25px;
-}
-
-h5 {
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 0px;
-}
-
-h5 {
-    font-size: 21px;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-}
-
-.Header-title {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
-p, span {
-    font-family: 'Roboto', sans-serif;
-}
-
-.Placeholder p {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
-.item-terminalPost>span, .item-terminalPost>span>*  {
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    letter-spacing: 0.25px !important;
-}
-
-span.username {
-    font-weight: 500;
-}
+// Components
+@import "buttons.less";
+@import "textfields.less";
+@import "modal.less";
+@import "header.less";
+@import "nav.less";
+@import "permission.less";
+@import "switch.less";
 
 // Icons
 @import url('https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css');
+
+.ExtensionIcon {
+    border-radius: 100px;
+    line-height: 38px;
+}
+
+.ExtensionIcon>.icon {
+    font-size: 20px;
+}
+
+.sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
+    font-size: 20px;
+}
 
 .icon {
     font-family: "Material Design Icons";
@@ -479,7 +322,8 @@ span.username {
 }
 
 .fa-at:before {
-    content: "\f1fa";
+    // Switched to mdi-at
+    content: "\F0065";
 }
 
 .fa-atlas:before {
@@ -487,11 +331,13 @@ span.username {
 }
 
 .fa-atlassian:before {
-    content: "\f77b";
+    // Switched to mdi-atlassian
+    content: "\F0804";
 }
 
 .fa-atom:before {
-    content: "\f5d2";
+    // Switched to mdi-atom
+    content: "\F0768";
 }
 
 .fa-audible:before {
@@ -555,7 +401,8 @@ span.username {
 }
 
 .fa-ban:before {
-    content: "\f05e";
+    // Switched to mdi-block-helper
+    content: "\F00AD";
 }
 
 .fa-band-aid:before {
@@ -570,8 +417,14 @@ span.username {
     content: "\f02a";
 }
 
+.item-discussions>a>.fa-bars:before {
+    // Switched to mdi-comment-text-multiple-outline
+    content: "\F0861";
+}
+
 .fa-bars:before {
-    content: "\f0c9";
+    // Switched to mdi-menu
+    content: "\F035C";
 }
 
 .fa-baseball-ball:before {
@@ -1094,15 +947,18 @@ span.username {
 }
 
 .fa-chart-bar:before {
-    content: "\f080";
+    // Switched to mdi-chart-bar
+    content: "\F0128";
 }
 
 .fa-chart-line:before {
-    content: "\f201";
+    // Switched to mdi-chart-line
+    content: "\F012A";
 }
 
 .fa-chart-pie:before {
-    content: "\f200";
+    // Switched to mdi-chart-pie
+    content: "\F012B";
 }
 
 .fa-check:before {
@@ -1860,11 +1716,13 @@ span.username {
 }
 
 .fa-envelope:before {
-    content: "\f0e0";
+    // Switched to mdi-email-outline
+    content: "\F01F0";
 }
 
 .fa-envelope-open:before {
-    content: "\f2b6";
+    // Switched to mdi-email-open-outline
+    content: "\F05EF";
 }
 
 .fa-envelope-open-text:before {
@@ -1964,7 +1822,8 @@ span.username {
 }
 
 .fa-facebook:before {
-    content: "\f09a";
+    // Switched to mdi-facebook
+    content: "\F020C";
 }
 
 .fa-facebook-f:before {
@@ -2359,7 +2218,8 @@ span.username {
 }
 
 .fa-gift:before {
-    content: "\f06b";
+    // Switched to mdi-gift-outline
+    content: "\F02A1";
 }
 
 .fa-gifts:before {
@@ -2367,27 +2227,33 @@ span.username {
 }
 
 .fa-git:before {
-    content: "\f1d3";
+    // Switched to mdi-git
+    content: "\F02A2";
 }
 
 .fa-git-alt:before {
-    content: "\f841";
+    // Switched to mdi-git
+    content: "\F02A2";
 }
 
 .fa-git-square:before {
-    content: "\f1d2";
+    // Switched to mdi-git
+    content: "\F02A2";
 }
 
 .fa-github:before {
-    content: "\f09b";
+    // Switched to mdi-github
+    content: "\F02A4";
 }
 
 .fa-github-alt:before {
-    content: "\f113";
+    // Switched to mdi-github
+    content: "\F02A4";
 }
 
 .fa-github-square:before {
-    content: "\f092";
+    // Switched to mdi-github
+    content: "\F02A4";
 }
 
 .fa-gitkraken:before {
@@ -3041,7 +2907,8 @@ span.username {
 }
 
 .fa-key:before {
-    content: "\f084";
+    // Switched to mdi-key-outline
+    content: "\F0DD6";
 }
 
 .fa-keybase:before {
@@ -3682,15 +3549,18 @@ span.username {
 }
 
 .fa-paint-brush:before {
-    content: "\f1fc";
+    // Switched to mdi-brush
+    content: "\F00E3";
 }
 
 .fa-paint-roller:before {
-    content: "\f5aa";
+    // Switched to mdi-format-paint
+    content: "\F027C";
 }
 
 .fa-palette:before {
-    content: "\f53f";
+    // Switched to mdi-palette-outline
+    content: "\F0E0C";
 }
 
 .fa-palfed:before {
@@ -3758,11 +3628,13 @@ span.username {
 }
 
 .fa-pen:before {
-    content: "\f304";
+    // Switched to mdi-pen
+    content: "\F03EA";
 }
 
 .fa-pen-alt:before {
-    content: "\f305";
+    // Switched to mdi-pencil
+    content: "\F03EB";
 }
 
 .fa-pen-fancy:before {
@@ -3778,11 +3650,13 @@ span.username {
 }
 
 .fa-pencil-alt:before {
-    content: "\f303";
+    // Switched to mdi-pencil-outline
+    content: "\F0CB6";
 }
 
 .fa-pencil-ruler:before {
-    content: "\f5ae";
+    // Switched to mdi-pencil-ruler
+    content: "\F1353";
 }
 
 .fa-penny-arcade:before {
@@ -5085,11 +4959,13 @@ span.username {
 }
 
 .fa-thumbs-down:before {
-    content: "\f165";
+    // Switched to mdi-thumb-down-outline
+    content: "\F0512";
 }
 
 .fa-thumbs-up:before {
-    content: "\f164";
+    // Switched to mdi-thumb-up-outline
+    content: "\F0514";
 }
 
 .fa-thumbtack:before {
@@ -5192,19 +5068,23 @@ span.username {
 }
 
 .fa-trash:before {
-    content: "\f1f8";
+    // Switched to mdi-delete-variant
+    content: "\F01B3";
 }
 
 .fa-trash-alt:before {
-    content: "\f2ed";
+    // Switched to mdi-delete-variant
+    content: "\F01B3";
 }
 
 .fa-trash-restore:before {
-    content: "\f829";
+    // Switched to mdi-restore
+    content: "\F099B";
 }
 
 .fa-trash-restore-alt:before {
-    content: "\f82a";
+    // Switched to mdi-restore
+    content: "\F099B";
 }
 
 .fa-tree:before {
@@ -5264,15 +5144,18 @@ span.username {
 }
 
 .fa-twitch:before {
-    content: "\f1e8";
+    // Switched to mdi-twitch
+    content: "\F0543";
 }
 
 .fa-twitter:before {
-    content: "\f099";
+    // Switched to mdi-twitter
+    content: "\F0544";
 }
 
 .fa-twitter-square:before {
-    content: "\f081";
+    // Switched to mdi-twitter
+    content: "\F0544";
 }
 
 .fa-typo3:before {
@@ -5750,7 +5633,8 @@ span.username {
 }
 
 .fa-wrench:before {
-    content: "\f0ad";
+    // Switched to mdi-wrench-outline
+    content: "\F0BE0";
 }
 
 .fa-x-ray:before {
@@ -5819,40 +5703,4 @@ span.username {
 
 .fa-zhihu:before {
     content: "\f63f";
-}
-
-// Markdown
-#MarkdownToolbar>button>.icon {
-    font-size: 18px;
-}
-
-// Posts
-.EventPost {
-    margin-top: 25px;
-}
-
-.EventPost>div>.icon {
-    font-size: 18px !important;
-}
-
-.Post {
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-radius: 8px;
-}
-
-.Post.editing {
-    top: 50px;
-}
-
-.Post-footer {
-    margin: 0;
-}
-
-.PostStream-item:not(:last-child) {
-    border: none;
-}
-
-// Sidenav
-.sideNav .Dropdown--select .Dropdown-menu>li>a .Button-icon {
-    font-size: 20px;
 }

@@ -1,0 +1,99 @@
+.ButtonGroup .Button+.Button {
+    margin-left: -1px;
+}
+
+.Button--primary {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    border: solid 1px; /* Safari */
+    border-color: fade(@primary-color, 20%);
+    border-radius: 4px;
+    // padding: 0 16px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: @primary-color;
+    background-color: transparent;
+    font-family: "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+
+.Button--primary:active, .Button.active, .open>.Dropdown-toggle.Button {
+    background: transparent;
+}
+
+.Button--primary::-moz-focus-inner {
+    border: none;
+}
+
+.Button--primary::before,
+.Button--primary::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: initial;
+    opacity: 0;
+}
+
+.Button--primary::before {
+    background-color: @primary-color;
+    transition: opacity .1s;
+}
+
+.Button--primary::after {
+    background: radial-gradient(circle at center, currentColor 1%, transparent 1%) center/10000% 10000% no-repeat;
+    transition: opacity 1s, background-size .5s;
+}
+
+.Button--primary:active {
+    background: fade(@primary-color, 0%);
+}
+
+.Button--primary:focus {
+    background: fade(@primary-color, 0%);
+}
+
+.Button--primary:hover {
+    transition: all .375s ease-in-out;
+    background: fade(@primary-color, 5%);
+}
+
+.Button--primary:hover::before {
+    opacity: 0;
+}
+
+.Button--primary:focus::before {
+    opacity: .0;
+}
+
+.Button--primary:hover:focus::before {
+    opacity: 0;
+}
+
+.Button--primary:active::after {
+    opacity: .1;
+    background-size: 100% 100%;
+    transition: background-size 0s;
+}
+
+.Button--primary:disabled {
+    color: fade(@primary-color, 10%);
+    background-color: transparent;
+    cursor: initial;
+}
+
+.Button--primary:disabled::before,
+.Button--primary:disabled::after {
+    opacity: 0;
+}

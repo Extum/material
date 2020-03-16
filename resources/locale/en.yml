@@ -1,0 +1,5 @@
+extum-flarum-ext-material2:
+  admin:
+    settings:
+      title: "Extum Material"
+      adaptiveMode: "Adaptive Mode"

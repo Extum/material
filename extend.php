@@ -12,6 +12,7 @@
 namespace Extum\MDL;
 
 use Flarum\Extend;
+use Flarum\Settings\SettingsRepositoryInterface;
 
 return [
     (new Extend\Frontend('forum'))
@@ -23,3 +24,15 @@ return [
     new Extend\Locales(__DIR__ . '/resources/locale')
 ];
 
+class ClassInterfacesWithSettings
+{
+    /**
+     * @var SettingsRepositoryInterface
+     */
+    protected $settings;
+
+    public function __construct(SettingsRepositoryInterface $settings)
+    {
+        $this->settings = $settings;
+    }
+}

@@ -1,0 +1,47 @@
+.App:before {
+    height: 53px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.App-nav {
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.App-nav .AdminNav .Button-icon {
+    margin-top: 1px !important;
+}
+
+.App-nav .AdminNav .Dropdown-menu>li.active>a>.AdminLinkButton-description {
+    color: @primary-color;
+}
+
+.App-nav .AdminNav .Dropdown-menu>li.active>a {
+    background: fade(@primary-color, 5%);
+}
+
+.App-nav .AdminNav .Dropdown-menu>li.active>a .Button-label, .App-nav .AdminNav .Dropdown-menu>li.active>a .Button-icon {
+    color: fade(@primary-color, 75%);
+    font-weight: 500;
+}
+
+.scrolled.App:before {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+// HOVERING
+.App-nav .AdminNav .Dropdown-menu>li>a:hover>.AdminLinkButton-description {
+    color: @primary-color;
+}
+
+.App-nav .AdminNav .Dropdown-menu>li>a:hover {
+    background: fade(@primary-color, 5%);
+}
+
+.App-nav .AdminNav .Dropdown-menu>li>a:hover .Button-label, .App-nav .AdminNav .Dropdown-menu>li>a:hover .Button-icon {
+    color: fade(@primary-color, 75%);
+}

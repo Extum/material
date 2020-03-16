@@ -1,3 +1,6 @@
-app.initializers.add('extum/flarum-ext-material2', () => {
-  console.log('[extum/flarum-ext-material2] Hello, admin!');
+import app from 'flarum/app';
+import ExtumSettingsModal from "./components/SettingsModal";
+
+app.initializers.add('extum-material2', () => {
+    app.extensionSettings['extum-material2'] = () => { app.modal.show(new ExtumSettingsModal()) };
 });
